@@ -1,5 +1,5 @@
 {
-  "name": "parcel-project-template",
+  "name": "simply-chocolate",
   "version": "2.0.0",
   "description": "",
   "homepage": "https://irashovdra.github.io/simply-chocolate/",
@@ -11,13 +11,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+    "url": "git+https://github.com/irashovdra/simply-chocolate.git"
   },
   "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "Iryna Shovdra <test@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+    "url": "https://github.com/irashovdra/simply-chocolate/issues"
   },
   "dependencies": {
     "gh-pages": "^5.0.0",
