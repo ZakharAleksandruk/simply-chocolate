@@ -13,21 +13,6 @@ header {
     justify-content: center;
     align-items: center;
     gap: 1.875rem;
-
-    a {
-        cursor: pointer;
-        text-decoration: underline 1.5px transparent;
-        transition: text-decoration-color 0.3s;
-        color: $black-primary;
-
-        &:visited {
-            color: $black-primary;
-        }
-
-        &:hover {
-            text-decoration-color: $black-primary;
-        }
-    }
 }
 
 .socials-container {

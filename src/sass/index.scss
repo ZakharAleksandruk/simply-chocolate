@@ -1,2 +1,41 @@
 @import "./common";
 @import "./header.scss";
+@import "./drawer.scss";
+
+$orange-primary: hsl(31, 98%, 56%);
+
+a {
+    cursor: pointer;
+    text-decoration: underline 1.5px transparent;
+    transition: text-decoration-color 0.3s;
+    color: $black-primary;
+
+    &:visited {
+        color: $black-primary;
+    }
+
+    &:hover {
+        text-decoration-color: $black-primary;
+    }
+}
+
+.orange {
+    color: $orange-primary !important;
+}
+
+@keyframes slide-in {
+    0% {
+        opacity: 0;
+        transform: translateX(200px);
+    }
+
+    100% {
+        opacity: 100;
+        transform: translateX(0);
+    }
+}
+
+.show {
+    display: flex !important;
+    animation: slide-in 0.6s;
+}
