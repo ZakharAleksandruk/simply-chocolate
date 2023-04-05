@@ -1,6 +1,10 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+@import "./reset";
 @import "./common";
-@import "./header.scss";
-@import "./drawer.scss";
+@import "./header";
+@import "./drawer";
+@import "./about";
+
 
 $orange-primary: hsl(31, 98%, 56%);
 
