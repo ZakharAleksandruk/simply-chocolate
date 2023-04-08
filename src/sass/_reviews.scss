@@ -25,6 +25,7 @@ margin-bottom: 90px;
 }
 
 .reviews-list__item {
+    position: relative;
     padding-top: 56px;
     padding-bottom: 26px;
     width: 360px;
@@ -36,8 +37,12 @@ border-radius: 15px;
 }
 
 .reviews-list__photo {
+    position: absolute;
+    top: -45px;
+    left: 140px;
     width: 80px;
     height: 80px;
+    margin-bottom: 18px;
 }
 
 .reviews-list__title {
@@ -46,6 +51,7 @@ font-size: 18px;
 line-height: 1.33;
 text-align: center;
 color: #111111;
+margin-bottom: 24px;
 }
 
 .reviews-list__text {
@@ -56,4 +62,23 @@ text-align: center;
 letter-spacing: -0.02em;
 color: rgba(17, 17, 17, 0.7);
 max-width: 312px;
+display: flex;
+justify-content: center;
+margin-right: auto;
+margin-left: auto;
+}
+
+.reviews__btn {
+    border: 1px solid #FD9222;
+border-radius: 100px;
+font-weight: 600;
+font-size: 18px;
+line-height: 1.22;
+color: #111111;
+padding: 14px 40px;
+background-color: transparent;
+margin-top: 94px;
+display: flex;
+margin-left: auto;
+margin-right: auto;
 }
