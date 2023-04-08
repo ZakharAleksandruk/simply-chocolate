@@ -1,6 +1,6 @@
 $black-primary: hsl(0, 0%, 0%);
 
-header {
+.header {
     width: 100vw;
     display: flex;
     justify-content: space-between;
@@ -8,28 +8,75 @@ header {
     padding: 2.188rem;
 }
 
-.link-container {
+.header__content {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.11;
+    letter-spacing: -0.03em;
+    color: #111111;
+    text-transform: uppercase;
+    margin-right: auto;
+}
+
+.header__simply {
+    font-style: italic;
+    margin-right: 5px;
+}
+
+.header__icon {
+    margin-left: 5px;
+    width: 24px;
+    height: 24px;
+}
+
+.pages {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1.875rem;
+    // gap: 1.875rem;
+    gap: 24px;
 }
 
-.socials-container {
+.pages__link {
+    font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: -0.02em;
+color: #111111;
+}
+
+.pages__link:hover {
+    color: #FD9222;
+}
+
+.socials {
     display: flex;
     max-width: 60px;
     gap: 20px;
-
-    img {
-        width: 24px;
-        height: 24px;
-    }
+    margin-left: 137px;
 }
 
 .burger {
     display: none;
     width: 24px;
     height: 16px;
+}
+
+.socials__icon {
+    fill: white;
+    stroke: #111111;
+    stroke-width: 2px;
+}
+
+.socials__icon:hover {
+    stroke: #FD9222;
 }
 
 @media (max-width: 1000px) {
