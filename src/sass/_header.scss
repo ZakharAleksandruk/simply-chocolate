@@ -3,7 +3,6 @@ $black-primary: hsl(0, 0%, 0%);
 .header {
     width: 100vw;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     padding: 2.188rem;
 }
@@ -11,6 +10,7 @@ $black-primary: hsl(0, 0%, 0%);
 .header__content {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .header__logo {
@@ -22,7 +22,7 @@ $black-primary: hsl(0, 0%, 0%);
     letter-spacing: -0.03em;
     color: #111111;
     text-transform: uppercase;
-    margin-right: auto;
+    margin-right: 189.91px;
 }
 
 .header__simply {
@@ -40,55 +40,78 @@ $black-primary: hsl(0, 0%, 0%);
     display: flex;
     justify-content: center;
     align-items: center;
-    // gap: 1.875rem;
     gap: 24px;
 }
 
 .pages__link {
     font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: -0.02em;
-color: #111111;
-}
-
-.pages__link:hover {
-    color: #FD9222;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+    color: #111111;
+    transition: color 0.3s;
+    
+    &:hover {
+        color: #FD9222;
+    }
 }
 
 .socials {
     display: flex;
     max-width: 60px;
     gap: 20px;
-    margin-left: 137px;
+    margin-left: 154.5px;
 }
 
 .burger {
     display: none;
     width: 24px;
     height: 16px;
+    cursor: pointer;
 }
 
 .socials__icon {
     fill: white;
     stroke: #111111;
     stroke-width: 2.6px;
+    transition: stroke 0.3s;
+
+    &:hover {
+        stroke: #FD9222;
+    }
 }
 
-.socials__icon:hover {
-    stroke: #FD9222;
+@media (max-width: 1200px) {
+    .header__logo {
+        margin-right: calc(189.91px - 12vw);
+    }
+
+    .socials {
+        margin-left: calc(154.5px - 12vw);
+    }
 }
 
 @media (max-width: 1000px) {
+    .pages {
+        font-size: 10px;
+        gap: calc(24px - 1vw);
+    }
+}
+
+@media (max-width: 768px) {
+    .header__logo {
+        margin: unset;
+    }
+
     .burger {
         display: block;
     }
 
-    .link-container {
+    .pages {
         display: none;
     }
 
-    .socials-container {
+    .socials {
         display: none;
     }
 }

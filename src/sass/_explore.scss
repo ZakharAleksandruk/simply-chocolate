@@ -1,0 +1,45 @@
+$white-primary: hsl(100, 100%, 100%);
+$orange-primary: hsl(31, 98%, 56%);
+$pink-primary: hsl(35, 83%, 93%);
+
+.explore {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 370px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../images/desktop/sub-bg@1x.png");
+    margin-top: 30px;
+    color: $white-primary;
+    gap: 2rem;
+
+    p {
+        text-align: center;
+
+        &:first-child {
+            text-align: center;
+        }
+
+        &:nth-child(2) {
+            max-width: 470px;
+        }
+    }
+
+    button {
+        width: 9.375rem;
+        height: 2.5rem;
+        border: 0;
+        border-radius: 25px;
+        color: $white-primary;
+        transition: 0.3s;
+        background-color: $orange-primary;
+
+        &:hover {
+            color: $orange-primary;
+            background-color: $pink-primary;
+        }
+    }
+}
