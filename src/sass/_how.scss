@@ -1,0 +1,59 @@
+$orange-primary: hsl(31, 98%, 56%);
+
+.how-container {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 128px 0;
+}
+
+.title {
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.orange {
+    color: $orange-primary;
+}
+
+.how-wrapper {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.how-wrapper > img {
+    width: 600px;
+    height: 400px;
+    border: 0;
+    border-radius: 10px;
+}
+
+.how-text {
+    max-width: 516px;
+    max-height: 400px;
+
+    p {
+        font-weight: 800;
+        margin: 0 32px 24px 0;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+        padding-left: 32px;
+
+        li {
+            list-style-type: disc;
+        }
+    }
+}

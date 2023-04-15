@@ -1,0 +1,52 @@
+$orange-primary: hsl(31, 98%, 56%);
+$pink-primary: hsl(35, 83%, 93%);
+
+.orange {
+    color: $orange-primary;
+}
+
+.top-seller {
+    margin: 128px 0;
+}
+
+.img-container {
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    padding-top: 50px;
+
+    img {
+        max-width: 368px;
+        max-height: 464px;
+        border-radius: 10px;
+    }
+}
+
+.text-btn-container {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 200px 0 200px;
+
+    p {
+        max-width: 400px;
+    }
+
+    button {
+        width: 9.375rem;
+        height: 2.5rem;
+        border: 0;
+        border-radius: 25px;
+        color: $white-primary;
+        transition: 0.3s;
+        background-color: $orange-primary;
+
+        &:hover {
+            color: $orange-primary;
+            background-color: $pink-primary;
+        }
+    }
+}
