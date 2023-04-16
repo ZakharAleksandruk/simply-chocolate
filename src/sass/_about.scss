@@ -15,31 +15,31 @@
 
 .about-list__icon {
     fill: #fd9222;
-    margin-bottom: 37px;
 }
 
 .about-list__circle {
     width: 62px;
-height: 62px;
+    height: 62px;
     display: flex;
     align-items: center;
     justify-content: center;
     border: 1px solid rgba(255, 255, 255, 0.5);
-border-radius: 100%;
+    border-radius: 100%;
+    margin-bottom: 37px;
 }
 
 .about-list__title {
-font-weight: 600;
-font-size: 18px;
-line-height: 1.22;
-color: #FFFFFF;
-margin-bottom: 18px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.22;
+    color: #ffffff;
+    margin-bottom: 18px;
 }
 
 .about-list__text {
     font-weight: 400;
-font-size: 14px;
-line-height: 1.21;
-letter-spacing: -0.02em;
-color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    line-height: 1.21;
+    letter-spacing: -0.02em;
+    color: rgba(255, 255, 255, 0.7);
 }

@@ -52,6 +52,9 @@
     border-radius: 15px;
     border: 1px solid #fd9222;
     padding: 28px;
+    position: relative;
+    transition: border 250ms cubic-bezier(0.165, 0.84, 0.44, 1),
+        background-color 250ms cubic-bezier(0.165, 0.84, 0.44);
 }
 
 .ingredients-list__item:nth-child(1) {
@@ -78,5 +81,91 @@
 }
 
 .ingredients-list__span {
+    color: #111111;
+}
+
+// Оверлей
+
+.ingredients-list__item:hover .ingredients-overlay {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.ingredients-list__item:hover {
+    border: none;
+    background-color: transparent;
+}
+
+.ingredients-overlay {
+    position: absolute;
+    background-color: #ffffff;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transform: scale(0);
+    transition: transform 250ms cubic-bezier(0.165, 0.84, 0.44, 1),
+        opacity 250ms cubic-bezier(0.165, 0.84, 0.44, 1);
+    padding: 28px;
+    border-radius: 15px;
+}
+
+.ingredients-overlay:hover {
+    opacity: 1;
+}
+
+.ingredients-overlay__title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.22;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #111111;
+    margin-bottom: 8px;
+}
+
+.ingredients-overlay__content {
+    display: flex;
+    margin-bottom: 14px;
+}
+
+.ingredients-overlay__linkor {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 1.2;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    padding: 6px 16px;
+    background: #fd9222;
+    border-radius: 35px;
+    margin-right: 6px;
+    width: 93px;
+    height: 24px;
+}
+
+.ingredients-overlay__linkwh {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 1.2;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #111111;
+    padding: 6px 16px;
+    background: #fafafa;
+    border: 1px solid #fd9222;
+    border-radius: 35px;
+    width: 93px;
+    height: 24px;
+}
+
+.ingredients-overlay__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
     color: #111111;
 }
