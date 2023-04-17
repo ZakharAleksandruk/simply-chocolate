@@ -15,7 +15,6 @@
 
 .about-list__icon {
     fill: #fd9222;
-    margin-bottom: 37px;
 }
 
 .about-list__circle {
@@ -26,13 +25,14 @@
     justify-content: center;
     border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 100%;
+
 }
 
 .about-list__title {
     font-weight: 600;
     font-size: 18px;
     line-height: 1.22;
-    color: #FFFFFF;
+
     margin-bottom: 18px;
 }
 
@@ -42,4 +42,3 @@
     line-height: 1.21;
     letter-spacing: -0.02em;
     color: rgba(255, 255, 255, 0.7);
-}
