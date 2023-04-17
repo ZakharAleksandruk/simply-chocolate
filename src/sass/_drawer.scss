@@ -1,6 +1,10 @@
 $bg: hsl(273, 19%, 12%);
 $white-primary: hsl(100, 100%, 100%);
 
+.show {
+    display: flex !important;
+}
+
 .drawer {
     width: 100vw;
     height: 100vh;
@@ -18,11 +22,6 @@ $white-primary: hsl(100, 100%, 100%);
     a {
         color: $white-primary;
         font-size: 2rem;
-        text-decoration: underline 0.3rem transparent;
-    }
-
-    a:hover {
-        text-decoration-color: $white-primary;
     }
 }
 
@@ -30,12 +29,7 @@ $white-primary: hsl(100, 100%, 100%);
     position: absolute;
     width: 13px;
     height: 13px;
-    right: 20px;
-    top: 20px;
-}
-
-@media (min-width: 1000px) {
-    .drawer {
-        display: none;
-    }
+    top: 33.33px;
+    right: 41.33px;
+    cursor: pointer;
 }

@@ -1,0 +1,79 @@
+$white-primary: hsl(0, 0%, 100%);
+$orange-primary: hsl(31, 98%, 56%);
+$pink-primary: hsl(35, 83%, 93%);
+
+.main {
+    margin: 30px auto 72px auto;
+    position: relative;
+    max-width: 71rem;
+    height: 37.5rem;
+    object-fit: cover;
+    object-position: 50% 50%;
+    background-image: url("../images/desktop/hero-bg@1x.webp");
+    border: 0;
+    border-radius: 25px;
+}
+
+.main > p {
+    max-width: 28.125rem;
+    position: absolute;
+    font-size: 2rem;
+    left: 40px;
+    bottom: 117px;
+    color: $white-primary;
+}
+
+.btn-container {
+    display: flex;
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+    gap: 1rem;
+
+    button {
+        width: 9.375rem;
+        height: 2.5rem;
+        border: 0;
+        border-radius: 25px;
+        color: $white-primary;
+        transition: 0.3s;
+
+        &:first-child {
+            background-color: $orange-primary;
+    
+            &:hover {
+                color: $orange-primary;
+                background-color: $pink-primary;
+            }
+        }
+
+        &:last-child {
+            border: solid 1px $white-primary;
+            background-color: transparent;
+    
+            &:hover {
+                color: $orange-primary;
+                border-color: $orange-primary;
+            }
+        }
+    }
+}
+
+.scroll {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    color: $white-primary;
+    gap: 0.7rem;
+}
+
+.icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 0;
+    border-radius: 50%;
+    background-color: $white-primary;
+}
