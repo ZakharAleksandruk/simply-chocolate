@@ -1,0 +1,60 @@
+.reviews-form {
+    width: 517px;
+    height: 631px;
+    padding: 40px;
+}
+
+.reviews-form__title {
+    font-weight: 600;
+font-size: 24px;
+line-height: 1.17;
+letter-spacing: -0.03em;
+text-transform: uppercase;
+color: #111111;
+margin-bottom: 40px;
+}
+
+.reviews-form__span {
+    color: #FD9222;
+}
+
+.form-list {
+    gap: 20px;
+}
+
+.form-list__item {
+    width: 437px;
+height: 66px;
+padding-top: 22px;
+padding-left: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Друга модалка 
+
+.reviews-modal.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.is-hidden .reviews-modal {
+    transform: translate(50%, -50%);
+} 
+
+.reviews-modal {
+    width: 516px;
+    height: 414px;
+    // background-image: url(../images/desktop/);
+}
