@@ -1,0 +1,2 @@
+var refs={openModalBtn:document.querySelector("[data-open-reviews-modal]"),closeModalBtn:document.querySelector("[data-close-reviews-modal]"),backdrop:document.querySelector("[data-reviews-modal]")};function toggleModal(){refs.backdrop.classList.toggle("is-hidden")}function logBackdropClick(){console.log("Це клік в бекдроп")}refs.openModalBtn.addEventListener("click",toggleModal),refs.closeModalBtn.addEventListener("click",toggleModal),refs.backdrop.addEventListener("click",logBackdropClick);
+//# sourceMappingURL=index.1e37addc.js.map
