@@ -1,0 +1,144 @@
+.reviews-form {
+    width: 517px;
+    height: 631px;
+    padding: 40px;
+    position: fixed;
+    background: #fafafa;
+    border-radius: 15px;
+    transform: translate(-50%, -50%);
+}
+
+.reviews-form.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.reviews-form__icon {
+    position: absolute;
+    top: 31px;
+    right: 31px;
+}
+
+.reviews-form__title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #111111;
+    margin-bottom: 40px;
+}
+
+.reviews-form__span {
+    color: #fd9222;
+}
+
+.form-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 18px;
+}
+
+.form-list__item:nth-child(3) {
+    position: relative;
+}
+
+.form-list__flag {
+    position: absolute;
+    top: 17px;
+    left: 24px;
+    margin-right: 18px;
+}
+
+.form-list__filling {
+    padding-top: 22px;
+    padding-left: 22px;
+    padding-bottom: 22px;
+    width: 437px;
+    border: 1.5px solid rgba(17, 17, 17, 0.05);
+    border-radius: 13px;
+}
+
+.form-list__text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.22;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+    color: #000000;
+    position: absolute;
+    top: 22px;
+    left: 74px;
+}
+
+.form-list__number {
+    padding-left: 177px;
+}
+
+.form-list__comments {
+    padding-bottom: 93px;
+}
+
+.reviews-form__btn {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.21;
+    color: #ffffff;
+    background: #fd9222;
+    border-radius: 100px;
+    padding: 14px 40px;
+}
+
+// Друга модалка
+
+.reviews-modal.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.reviews-modal {
+    width: 516px;
+    height: 414px;
+    background-color: #fd9222;
+    position: fixed;
+    border-radius: 15px;
+    padding-left: 170px;
+    padding-top: 163px;
+    transform: translate(50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.reviews-modal__photo {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 290px;
+    height: 325px;
+}
+
+.reviews-modal__icon {
+    position: absolute;
+    top: 31px;
+    right: 31px;
+}
+
+.reviews-modal__title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #fcf1e0;
+}
+
+.reviews-modal__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+}
