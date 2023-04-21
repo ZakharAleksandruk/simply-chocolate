@@ -22,26 +22,34 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 28px;
+    gap: 16px; 
     margin-bottom: 94px;
+
+    @media screen and (min-width: 1200px) {
+    gap: 28px;
+    }  
 }
 
 .reviews-list__item {
     position: relative;
     padding-top: 56px;
     padding-bottom: 26px;
-    width: 360px;
+    max-width: 340px;
     height: 200px;
     background: #ffffff;
     border: 1px solid rgba(17, 17, 17, 0.1);
     box-shadow: 0px 9.04932px 26.5717px rgba(215, 228, 249, 0.25);
     border-radius: 15px;
+
+    @media screen and (min-width: 1200px) {
+    width: 360px;
+    } 
 }
 
 .reviews-list__photo {
     position: absolute;
     top: -45px;
-    left: 140px;
+    left: 120px;
     width: 80px;
     height: 80px;
     margin-bottom: 18px;
