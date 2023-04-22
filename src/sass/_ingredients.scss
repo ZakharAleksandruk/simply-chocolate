@@ -1,6 +1,5 @@
 .ingredients {
     padding-top: 128px;
-    padding-bottom: 128px;
 }
 
 .ingredients__title {
@@ -39,6 +38,16 @@
     gap: 20px;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+
+    @media screen and (min-width: 768px) {
+    gap: 32px;   
+    }  
+
+    @media screen and (min-width: 1200px) {
+    gap: 19px;
+    flex-wrap: nowrap;
+    }  
 }
 
 .ingredients-list__item {
@@ -46,7 +55,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 270px;
     height: 270px;
     background-color: transparent;
     border-radius: 15px;
@@ -54,7 +62,11 @@
     padding: 28px;
     position: relative;
     transition: border 250ms cubic-bezier(0.165, 0.84, 0.44, 1),
-        background-color 250ms cubic-bezier(0.165, 0.84, 0.44);
+        background-color 250ms cubic-bezier(0.165, 0.84, 0.44); 
+
+    @media screen and (min-width: 1200px) {
+    padding: 28px;
+    }  
 }
 
 .ingredients-list__item:nth-child(1) {

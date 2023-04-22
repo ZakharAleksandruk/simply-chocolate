@@ -1,17 +1,24 @@
 .about {
     background: #1e1823;
-    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .about-list {
     display: flex;
-    gap: 70px;
-}
+    gap: 38px;
+    flex-wrap: wrap;
+    justify-content: center;
 
-// .about-list__item:nth-child(2) {
-//     border-left: 1px solid rgba(255, 255, 255, 0.5);
-//     transform: rotate(90deg);
-// }
+    @media screen and (min-width: 768px) {
+    gap: 50px;   
+    }  
+
+    @media screen and (min-width: 1200px) {
+    gap: 70px;
+    flex-wrap: nowrap;
+    }  
+}
 
 .about-list__icon {
     fill: #fd9222;
@@ -25,14 +32,14 @@
     justify-content: center;
     border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 100%;
-
+    margin-bottom: 22px;
 }
 
 .about-list__title {
     font-weight: 600;
     font-size: 18px;
     line-height: 1.22;
-
+    color: #ffffff;
     margin-bottom: 18px;
 }
 
@@ -42,4 +49,5 @@
     line-height: 1.21;
     letter-spacing: -0.02em;
     color: rgba(255, 255, 255, 0.7);
+    max-width: 308px;
 }

@@ -11,6 +11,10 @@
             href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,700&family=Roboto&display=swap"
             rel="stylesheet"
         />
+        <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
         <script type="module" src="./index.js"></script>
     </head>
     <body>
@@ -24,92 +28,13 @@
         <include src="./partials/products.html"></include>
         <include src="./partials/top-sellers.html"></include>
         <include src="./partials/reviews.html"></include>
+        <include src="./partials/reviews-form.html"></include>
+        <include src="./partials/reviews-modal.html"></include>
         <include src="./partials/explore.html"></include>
         <include src="./partials/footer.html"></include>
 
-        <!-- modal reviews 1  -->
-        <div data-reviews-form class="reviews-form is-hidden">
-            <button
-                data-close-reviews-form
-                type="button"
-                class="reviews-form__close"
-            >
-                <svg
-                    class="reviews-form__icon"
-                    width="23"
-                    height="23"
-                    class="reviews-form__icon"
-                >
-                    <use href="images/symbol-defs.svg#cross"></use>
-                </svg>
-            </button>
-            <h3 class="reviews-form__title">
-                LEAVE A REVIEW ABOUT
-                <span class="reviews-form__span">OUR CHOCOLATE</span>
-            </h3>
-            <ul class="form-list">
-                <li class="form-list__item">
-                    <input
-                        class="form-list__filling"
-                        placeholder="Name"
-                        type="text"
-                        class="form-list__filling"
-                    />
-                </li>
-                <li class="form-list__item">
-                    <input
-                        class="form-list__filling"
-                        placeholder="Email"
-                        type="text"
-                        class="form-list__filling"
-                    />
-                </li>
-                <li class="form-list__item">
-                    <svg class="form-list__flag" width="32" height="30">
-                        <use href="./images/symbol-defs.svg#flag"></use>
-                    </svg>
-                    <p class="form-list__text">+380</p>
-                    <input
-                        class="form-list__filling form-list__number"
-                        placeholder="Phone number"
-                        type="text"
-                        class="form-list__filling"
-                    />
-                </li>
-                <li class="form-list__item">
-                    <input
-                        class="form-list__filling form-list__comments"
-                        placeholder="Enter text"
-                        type="text"
-                        class="form-list__filling"
-                    />
-                </li>
-            </ul>
-            <button
-                data-close-reviews-modal
-                data-open-reviews-modal
-                class="reviews-form__btn"
-            >
-                Send
-            </button>
-        </div>
-
-        <!-- modal reviews 2  -->
-        <div data-reviews-modal class="reviews-modal is-hidden">
-            <img
-                class="reviews-modal__photo"
-                src="images/desktop/reviews-modal-bg.png"
-                alt="chocolate"
-            />
-            <button data-close-reviews-modal class="reviews-modal__btn">
-                <svg width="28" height="28" class="reviews-modal__icon">
-                    <use href="images/symbol-defs.svg#cross"></use>
-                </svg>
-            </button>
-            <h3 class="reviews-modal__title">thank you for your feedback!</h3>
-            <p class="reviews-modal__text">We are so happy to hear from you!</p>
-        </div>
 
         <script src="./reviews-modal.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     </body>
 </html>
