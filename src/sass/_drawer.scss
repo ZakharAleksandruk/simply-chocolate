@@ -1,12 +1,25 @@
 $bg: hsl(273, 19%, 12%);
 $white-primary: hsl(100, 100%, 100%);
+$orange-primary: hsl(31, 98%, 56%);
+
+@keyframes slide-in {
+    0% {
+        opacity: 0;
+        transform: translateX(300px);
+    }
+
+    100% {
+        opacity: 100;
+        transform: translateX(0);
+    }
+}
 
 .show {
     display: flex !important;
 }
 
 .drawer {
-    width: 100vw;
+    width: 290px;
     height: 100vh;
     position: absolute;
     display: none;
@@ -15,13 +28,19 @@ $white-primary: hsl(100, 100%, 100%);
     align-items: center;
     gap: 1rem;
     top: 0;
-    left: 0;
+    right: 0;
     z-index: 999;
     background-color: $bg;
+    animation: slide-in 0.6s;
 
     a {
         color: $white-primary;
-        font-size: 2rem;
+        font-size: 1rem;
+        transition: color 0.3s;
+
+        &:hover {
+            color: $orange-primary;
+        }
     }
 }
 
@@ -32,4 +51,19 @@ $white-primary: hsl(100, 100%, 100%);
     top: 33.33px;
     right: 41.33px;
     cursor: pointer;
+}
+
+.drawer-socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 21px;
+    position: absolute;
+    bottom: 26px;
+    left: 36px;
+
+    svg {
+        width: 22px;
+        height: 17.94px;
+    }
 }

@@ -24,6 +24,7 @@ $orange-primary: hsl(31, 98%, 56%);
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     margin-top: 50px;
     gap: 20px;
 }
@@ -55,5 +56,11 @@ $orange-primary: hsl(31, 98%, 56%);
         li {
             list-style-type: disc;
         }
+    }
+}
+
+@media (max-width: 650px) {
+    .how-wrapper {
+        padding: 0 10px;
     }
 }
