@@ -14,7 +14,7 @@ $pink-primary: hsl(35, 83%, 93%);
     border-radius: 25px;
 }
 
-.main > p {
+.main-title {
     max-width: 28.125rem;
     position: absolute;
     font-size: 2rem;
@@ -40,7 +40,7 @@ $pink-primary: hsl(35, 83%, 93%);
 
         &:first-child {
             background-color: $orange-primary;
-    
+
             &:hover {
                 color: $orange-primary;
                 background-color: $pink-primary;
@@ -50,7 +50,7 @@ $pink-primary: hsl(35, 83%, 93%);
         &:last-child {
             border: solid 1px $white-primary;
             background-color: transparent;
-    
+
             &:hover {
                 color: $orange-primary;
                 border-color: $orange-primary;
@@ -64,6 +64,7 @@ $pink-primary: hsl(35, 83%, 93%);
     justify-content: center;
     align-items: center;
     position: absolute;
+    width: 150px;
     bottom: 40px;
     right: 40px;
     color: $white-primary;
@@ -76,4 +77,24 @@ $pink-primary: hsl(35, 83%, 93%);
     border: 0;
     border-radius: 50%;
     background-color: $white-primary;
+}
+
+@media (max-width: 650px) {
+    .main {
+        width: 38.813rem;
+    }
+
+    .main-title {
+        font-size: 1.5rem;
+        bottom: 154px;
+    }
+
+    .btn-container {
+        bottom: 98px;
+    }
+
+    .scroll {
+        bottom: 32px;
+        left: 20px;
+    }
 }

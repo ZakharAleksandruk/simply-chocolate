@@ -4,7 +4,9 @@ const refs = {
     backdrop: document.querySelector("[data-reviews-modal]"),
 };
 
-refs.openModalBtn.addEventListener("click", toggleModal);
+document
+    .querySelector("[data-open-reviews-modal]")
+    .addEventListener("click", toggleModal);
 refs.closeModalBtn.addEventListener("click", toggleModal);
 
 refs.backdrop.addEventListener("click", logBackdropClick);
