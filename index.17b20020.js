@@ -1,0 +1,2 @@
+(()=>{const e={openModalBtn:document.querySelector("[data-open-reviews-form]"),closeModalBtn:document.querySelector("[data-close-reviews-form]"),hideModal:document.querySelector("[data-hide-reviews-form]"),modal:document.querySelector("[data-reviews-form]")};function o(){e.modal.classList.toggle("is-hidden")}e.openModalBtn.addEventListener("click",o),e.closeModalBtn.addEventListener("click",o),e.hideModal.addEventListener("click",o)})();
+//# sourceMappingURL=index.17b20020.js.map
