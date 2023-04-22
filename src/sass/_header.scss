@@ -50,9 +50,9 @@ $black-primary: hsl(0, 0%, 0%);
     letter-spacing: -0.02em;
     color: #111111;
     transition: color 0.3s;
-    
+
     &:hover {
-        color: #FD9222;
+        color: #fd9222;
     }
 }
 
@@ -77,7 +77,7 @@ $black-primary: hsl(0, 0%, 0%);
     transition: stroke 0.3s;
 
     &:hover {
-        stroke: #FD9222;
+        stroke: #fd9222;
     }
 }
 
@@ -98,7 +98,7 @@ $black-primary: hsl(0, 0%, 0%);
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 825px) {
     .header__logo {
         margin: unset;
     }
