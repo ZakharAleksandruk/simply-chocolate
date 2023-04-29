@@ -20,6 +20,20 @@
     }  
 }
 
+.about-list__item {
+    max-width: 336px;
+
+    @media screen and (min-width: 768px) {
+    width: 308px; 
+    }  
+}
+
+.about-list__item:nth-child(2)::before {
+    content: "";
+    border: 1px solid rgba(255, 255, 255, 0.5);
+transform: rotate(90deg);
+}
+
 .about-list__icon {
     fill: #fd9222;
 }
