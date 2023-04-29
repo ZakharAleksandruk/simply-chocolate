@@ -1,0 +1,117 @@
+$grey-primary: hsl(0, 0%, 93%);
+$orange-primary: hsl(31, 98%, 56%);
+$white-primary: hsl(0, 0%, 100%);
+$pink-primary: hsl(35, 83%, 93%);
+
+.buy-modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 609px;
+    padding: 48px;
+    margin: 0 auto;
+}
+
+.buy-modal-title {
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    font-size: 1.5rem;
+
+    span {
+        color: $orange-primary;
+    }
+}
+
+.buy-modal-product-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 32px;
+}
+
+.buy-modal-product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    padding: 20px;
+    border: 1px solid $grey-primary;
+    border-radius: 25px;
+
+    img {
+        width: 120px;
+        height: 107px;
+    }
+}
+
+.grams {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 96px;
+    height: 33px;
+    border: 1px solid $grey-primary;
+    border-radius: 25px;
+
+    p {
+        font-weight: 600;
+    }
+}
+
+.field-container {
+    margin-top: 40px;
+}
+
+.f-container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.i-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    input,
+    textarea {
+        display: block;
+        border: 1px solid $grey-primary;
+        border-radius: 5px;
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    input {
+        max-width: 513px;
+        height: 66px;
+        position: relative;
+    }
+
+    textarea {
+        width: 513px;
+        height: 137px;
+        resize: none;
+    }
+}
+
+.buy-modal-btn {
+    width: 9.375rem;
+    height: 2.5rem;
+    border: 0;
+    border-radius: 25px;
+    color: $white-primary;
+    background-color: $orange-primary;
+    transition: 0.3s;
+    margin-top: 32px;
+
+    &:hover {
+        color: $orange-primary;
+        background-color: $pink-primary;
+    }
+}
