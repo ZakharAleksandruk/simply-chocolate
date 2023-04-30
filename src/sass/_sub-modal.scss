@@ -1,0 +1,23 @@
+$orange-primary: hsl(31, 98%, 56%);
+
+.sub-modal {
+    width: 536px;
+    height: 412px;
+    border-radius: 5px;
+
+    img {
+        width: 100%;
+        height: 196px;
+    }
+}
+
+.i-btn-container {
+    p {
+        font-size: 1.5rem;
+        font-weight: 600;
+
+        span {
+            color: $orange-primary;
+        }
+    }
+}

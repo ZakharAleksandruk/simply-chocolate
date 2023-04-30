@@ -53,3 +53,9 @@ $pink-primary: hsl(35, 83%, 93%);
         }
     }
 }
+
+@media (max-width: 700px) {
+    .text-btn-container {
+        padding: 32px 50px 0 50px;
+    }
+}
