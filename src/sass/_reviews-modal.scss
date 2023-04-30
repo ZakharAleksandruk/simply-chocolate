@@ -1,14 +1,24 @@
 .reviews-form {
-    width: 517px;
-    height: 631px;
-    padding: 40px;
+    width: 311px;
+    height: 471px;
+    padding: 32px 24px;
     position: fixed;
     background: #fafafa;
     border-radius: 15px;
     transform: translate(-50%, -50%);
+    // opacity: 1;
+    top: 50%;
+    left: 50%;
+    z-index: 1000;
+
+    @media screen and (min-width: 768px) {
+        width: 517px;
+        height: 631px;
+        padding: 40px;
+    }
 }
 
-.reviews-form.is-hidden {
+.is-hidden {
     opacity: 0;
     pointer-events: none;
 }
@@ -21,12 +31,18 @@
 
 .reviews-form__title {
     font-weight: 600;
-    font-size: 24px;
-    line-height: 1.17;
+    font-size: 20px;
+    line-height: 1.2;
     letter-spacing: -0.03em;
     text-transform: uppercase;
     color: #111111;
-    margin-bottom: 40px;
+    margin-bottom: 32px;
+
+    @media screen and (min-width: 768px) {
+        font-size: 24px;
+        line-height: 1.17;
+        margin-bottom: 40px;
+    }
 }
 
 .reviews-form__span {
@@ -36,8 +52,12 @@
 .form-list {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 14px;
     margin-bottom: 18px;
+
+    @media screen and (min-width: 768px) {
+        gap: 20px;
+    }
 }
 
 .form-list__item:nth-child(3) {
@@ -46,39 +66,67 @@
 
 .form-list__flag {
     position: absolute;
-    top: 17px;
-    left: 24px;
-    margin-right: 18px;
+    top: 12px;
+    left: 18px;
+    margin-right: 8px;
+
+    @media screen and (min-width: 768px) {
+        top: 17px;
+        left: 24px;
+        margin-right: 18px;
+    }
 }
 
 .form-list__filling {
-    padding-top: 22px;
-    padding-left: 22px;
-    padding-bottom: 22px;
-    width: 437px;
+    padding-top: 14px;
+    padding-left: 18px;
+    padding-bottom: 14px;
+    width: 263px;
     border: 1.5px solid rgba(17, 17, 17, 0.05);
     border-radius: 13px;
+
+    @media screen and (min-width: 768px) {
+        padding-top: 22px;
+        padding-left: 22px;
+        padding-bottom: 22px;
+        width: 437px;
+    }
 }
 
 .form-list__text {
     font-weight: 500;
-    font-size: 18px;
-    line-height: 1.22;
+    font-size: 14px;
+    line-height: 1.2;
     display: flex;
     align-items: center;
     letter-spacing: -0.02em;
     color: #000000;
     position: absolute;
-    top: 22px;
-    left: 74px;
+    top: 14px;
+    left: 50px;
+
+    @media screen and (min-width: 768px) {
+        font-size: 18px;
+        line-height: 1.22;
+        top: 22px;
+        left: 74px;
+    }
 }
 
 .form-list__number {
-    padding-left: 177px;
+    padding-left: 106px;
+
+    @media screen and (min-width: 768px) {
+        padding-left: 177px;
+    }
 }
 
 .form-list__comments {
-    padding-bottom: 93px;
+    padding-bottom: 60px;
+
+    @media screen and (min-width: 768px) {
+        padding-bottom: 93px;
+    }
 }
 
 .reviews-form__btn {
@@ -88,27 +136,34 @@
     color: #ffffff;
     background: #fd9222;
     border-radius: 100px;
-    padding: 14px 40px;
+    padding: 12px 28px;
+
+    @media screen and (min-width: 768px) {
+        padding: 14px 40px;
+    }
 }
 
 // Друга модалка
 
-.reviews-modal.is-hidden {
-    opacity: 0;
-    pointer-events: none;
-}
-
 .reviews-modal {
-    width: 516px;
-    height: 414px;
+    width: 311px;
+    height: 350px;
     background-color: #fd9222;
     position: fixed;
     border-radius: 15px;
-    padding-left: 170px;
-    padding-top: 163px;
-    transform: translate(50%, -50%);
+    padding-left: 58px;
+    padding-top: 84px;
+    transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
+    z-index: 1001;
+
+    @media screen and (min-width: 768px) {
+        width: 516px;
+        height: 414px;
+        padding-left: 170px;
+        padding-top: 163px;
+    }
 }
 
 .reviews-modal__photo {
@@ -122,23 +177,38 @@
 
 .reviews-modal__icon {
     position: absolute;
-    top: 31px;
-    right: 31px;
+    top: 14px;
+    right: 14px;
+
+    @media screen and (min-width: 768px) {
+        top: 31px;
+        right: 31px;
+    }
 }
 
 .reviews-modal__title {
     font-weight: 600;
-    font-size: 24px;
-    line-height: 1.17;
+    font-size: 20px;
+    line-height: 1.2;
     letter-spacing: -0.02em;
     text-transform: uppercase;
     color: #fcf1e0;
+
+    @media screen and (min-width: 768px) {
+        font-size: 24px;
+        line-height: 1.17;
+    }
 }
 
 .reviews-modal__text {
     font-weight: 400;
-    font-size: 18px;
-    line-height: 1.33;
+    font-size: 14px;
+    line-height: 1.2;
     letter-spacing: -0.02em;
     color: #ffffff;
+
+    @media screen and (min-width: 768px) {
+        font-size: 18px;
+        line-height: 1.33;
+    }
 }

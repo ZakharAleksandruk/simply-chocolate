@@ -1,6 +1,10 @@
 .products {
     padding-top: 128px;
-    padding-bottom: 173px;
+}
+
+.products-swiper {
+    display: flex;
+    gap: 18px;
 }
 
 .products__title {
@@ -24,6 +28,7 @@ border: 1px solid rgba(17, 17, 17, 0.1);
 border-radius: 15px;
 padding: 32px 20px;
 margin-right: 18px;
+width: 270px;
 }
 
 .products-swiper__slide:last-child {
