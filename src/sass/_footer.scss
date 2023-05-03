@@ -1,7 +1,12 @@
 .footer {
     background: #1E1823;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    @media screen and (min-width: 768px) {
     padding-top: 50px;
     padding-bottom: 50px;
+    } 
 }
 
 .footer__content {
@@ -16,12 +21,22 @@
 .footer__title {
     max-width: 300px;
     font-weight: 500;
-    font-size: 28px;
-    line-height: 1.21;
+    font-size: 24px;
+    line-height: 1.2;
     letter-spacing: -0.02em;
     color: #FFFFFF;
     margin-right: auto;
+    margin-bottom: 32px;
+    
+    @media screen and (min-width: 768px) {
+    font-size: 28px;
+    line-height: 1.21;
+    margin-bottom: 54px;
+    } 
+    
+    @media screen and (min-width: 1200px) {
     margin-bottom: 62px;
+    }
 }
 
 .footer__span {
@@ -69,13 +84,21 @@
 
 .footer-socials {
     display: flex;
+    gap: 14px;
+
+    @media screen and (min-width: 768px) {
     gap: 18px;
+    }
 }
 
 .footer-socials__icon {
     stroke: #FFFFFF;
     fill: #1E1823;
+    stroke-width: 1.5px;
+
+    @media screen and (min-width: 768px) {
     stroke-width: 2.6px;
+    }
 }
 
 // footer pages 
@@ -83,14 +106,14 @@
 .footer-pages {
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 18px;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
-    padding-top: 24px;
-    margin-top: 32px;
+    padding-top: 32px;
 
     @media screen and (min-width: 768px) {
     flex-direction: row;
-    margin-top: 0;
+    gap: 24px;
+    padding-top: 24px;
     } 
 }
 
