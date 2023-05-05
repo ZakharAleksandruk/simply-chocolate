@@ -1,7 +1,12 @@
 .about {
     background: #1e1823;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    @media screen and (min-width: 768px) {
     padding-top: 50px;
     padding-bottom: 50px;
+    }  
 }
 
 .about-list {
@@ -21,17 +26,43 @@
 }
 
 .about-list__item {
-    max-width: 336px;
+    max-width: 335px;
 
     @media screen and (min-width: 768px) {
     width: 308px; 
     }  
 }
 
+.about-list__item:nth-child(2) {
+    position: relative;
+}
+
 .about-list__item:nth-child(2)::before {
+    display: none;
+
+@media screen and (min-width: 1200px) {
+    display: block;
     content: "";
     border: 1px solid rgba(255, 255, 255, 0.5);
-transform: rotate(90deg);
+height: 124px;
+position: absolute;
+top: 60px;
+right: 365px;
+    } 
+}
+
+.about-list__item:nth-child(2)::after {
+    display: none;
+
+@media screen and (min-width: 1200px) {
+    display: block;
+    content: "";
+    border: 1px solid rgba(255, 255, 255, 0.5);
+height: 124px;
+position: absolute;
+top: 60px;
+left: 350px;
+    } 
 }
 
 .about-list__icon {
