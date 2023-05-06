@@ -384,7 +384,7 @@
 101/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/@swc/helpers/lib/_to_property_key.js1682769659849690407 0
 100/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/fs-extra/lib/ensure/symlink-type.js1682769659577689861 0
 93/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/nth-check/lib/parse.d.ts.map1682769659505689717 0
-79/home/aleks-zakhar/Documents/repos/simply-chocolate/dist/sub-bg@1x.71340841.png1682777994778997812 0
+79/home/aleks-zakhar/Documents/repos/simply-chocolate/dist/sub-bg@1x.71340841.png1683183733051811732 0
 79/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/yaml/README.md1682769659981690673 0
 91/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/@jridgewell/set-array/dist1682769659229689162 1
 94/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/type-fest/source/entries.d.ts1682769659417689539 0
@@ -582,7 +582,7 @@
 136/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/@babel/helper-validator-identifier/scripts/generate-identifier-regex.js1682769659293689291 0
 94/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/@mischnic/json-sourcemap/dist1682769659269689243 1
 117/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/@parcel/node-resolver-core/test/fixture/package.json1682769660461691638 0
-75/home/aleks-zakhar/Documents/repos/simply-chocolate/dist/index.f7626f62.css1682778249506092100 0
+75/home/aleks-zakhar/Documents/repos/simply-chocolate/dist/index.f7626f62.css1683183732619806784 0
 112/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/@babel/helper-validator-identifier/package.json1682769659229689162 0
 65/home/aleks-zakhar/Documents/repos/simply-chocolate/.editorconfig1682153174863276925 0
 72/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/globals1682769659281689267 1
@@ -870,7 +870,7 @@
 116/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/caniuse-lite/data/features/extended-system-fonts.js1682769660501691719 0
 92/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/source-map-js/lib/base64.js1682769659133688969 0
 103/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/htmlnano/lib/modules/removeComments.js1682769659601689909 0
-56/home/aleks-zakhar/Documents/repos/simply-chocolate/dist1682778249518092059 1
+56/home/aleks-zakhar/Documents/repos/simply-chocolate/dist1683183733059811824 1
 90/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/chalk/source/templates.js1682769659113688929 0
 96/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/source-map-js/lib/base64-vlq.js1682769659097688897 0
 119/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/@swc/helpers/src/_class_check_private_static_access.js1682769660117690946 0
@@ -1143,7 +1143,7 @@
 91/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/@parcel/graph/lib/Graph.js1682769659493689692 0
 78/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/node-releases1682769659317689339 1
 142/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/@parcel/core/test/fixtures/plugins/node_modules/parcel-transformer-no-engines1682769660497691710 1
-74/home/aleks-zakhar/Documents/repos/simply-chocolate/dist/index.4eb9e4c7.js1682777994754997901 0
+74/home/aleks-zakhar/Documents/repos/simply-chocolate/dist/index.4eb9e4c7.js1683183732995811091 0
 96/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/caniuse-lite/data/regions/MU.js1682769660569691855 0
 96/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/caniuse-lite/data/regions/SB.js1682769660601691919 0
 85/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/json5/dist/index.mjs1682769659601689909 0
@@ -1161,7 +1161,7 @@
 102/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/caniuse-lite/data/features/css-has.js1682769660341691396 0
 108/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/caniuse-lite/data/features/css-gradients.js1682769660337691388 0
 96/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/caniuse-lite/data/regions/DZ.js1682769660473691662 0
-67/home/aleks-zakhar/Documents/repos/simply-chocolate/dist/index.html1682777994450999014 0
+67/home/aleks-zakhar/Documents/repos/simply-chocolate/dist/index.html1683183733003811182 0
 77/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/glob/sync.js1682769659213689130 0
 104/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/caniuse-lite/data/features/png-alpha.js1682769660585691887 0
 96/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/fast-glob/out/utils/stream.d.ts1682769659805690319 0
@@ -1466,7 +1466,7 @@
 108/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/electron-to-chromium/chromium-versions.json1682769659357689419 0
 83/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/picomatch/index.js1682769659101688905 0
 117/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/react-refresh/cjs/react-refresh-babel.development.js1682769659137688978 0
-82/home/aleks-zakhar/Documents/repos/simply-chocolate/dist/pr-fruits@1x.0fde00e5.png1682777994670998207 0
+82/home/aleks-zakhar/Documents/repos/simply-chocolate/dist/pr-fruits@1x.0fde00e5.png1683183733011811274 0
 109/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/@msgpackr-extract/msgpackr-extract-linux-x641682769659345689395 1
 122/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/htmlnano/docs/versioned_docs/version-1.1.1/040-presets.md1682769660185691083 0
 121/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/@babel/highlight/node_modules/color-convert/package.json1682769659033688768 0
@@ -1474,7 +1474,7 @@
 92/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/domutils/lib/index.d.ts.map1682769659441689588 0
 99/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/caniuse-lite/data/features/sdch.js1682769660605691927 0
 110/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/posthtml-include/node_modules/posthtml-parser1682769659205689114 1
-86/home/aleks-zakhar/Documents/repos/simply-chocolate/dist/reviews-modal-bg.de6bfff7.png1682777994722998018 0
+86/home/aleks-zakhar/Documents/repos/simply-chocolate/dist/reviews-modal-bg.de6bfff7.png1683183733035811549 0
 104/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/css-tree/lib/definition-syntax/parse.js1682769660325691364 0
 111/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/@parcel/transformer-react-refresh-wrap/LICENSE1682769658985688672 0
 82/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/@parcel/core/test1682769660433691581 1
@@ -1485,7 +1485,7 @@
 81/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/timsort/index.js1682769659097688897 0
 105/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/dom-serializer/lib/esm/foreignNames.d.ts1682769659489689684 0
 98/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/caniuse-lite/data/features/let.js1682769660553691822 0
-78/home/aleks-zakhar/Documents/repos/simply-chocolate/dist/seller-3.406aa561.png1682777994750997914 0
+78/home/aleks-zakhar/Documents/repos/simply-chocolate/dist/seller-3.406aa561.png1683183733043811641 0
 114/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/htmlnano/lib/modules/removeRedundantAttributes.js1682769659641689989 0
 105/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/@parcel/diagnostic/test/markdown.test.js1682769659289689283 0
 96/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/caniuse-lite/data/regions/BH.js1682769659977690664 0
@@ -1511,8 +1511,8 @@
 84/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/locate-path/license1682769659105688913 0
 113/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/@swc/helpers/lib/_is_native_reflect_construct.js1682769659737690182 0
 96/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/caniuse-lite/data/regions/GD.js1682769660517691750 0
-78/home/aleks-zakhar/Documents/repos/simply-chocolate/dist/index.975ef6c8.js.map1682777994770997841 0
-80/home/aleks-zakhar/Documents/repos/simply-chocolate/dist/pr-lime@1x.46448909.png1682777994670998207 0
+78/home/aleks-zakhar/Documents/repos/simply-chocolate/dist/index.975ef6c8.js.map1683183733023811412 0
+80/home/aleks-zakhar/Documents/repos/simply-chocolate/dist/pr-lime@1x.46448909.png1683183733011811274 0
 83/home/aleks-zakhar/Documents/repos/simply-chocolate/src/images/desktop/white@1x.png1682153175115274627 0
 96/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/caniuse-lite/data/regions/JE.js1682769660545691807 0
 88/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/htmlnano/docs/README.md1682769660217691147 0
@@ -1559,7 +1559,7 @@
 82/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/is-glob/README.md1682769659145688993 0
 94/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/@babel/highlight/package.json1682769659165689033 0
 96/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/caniuse-lite/data/regions/PN.js1682769660585691887 0
-74/home/aleks-zakhar/Documents/repos/simply-chocolate/dist/logo.9610d186.png1682777994654998266 0
+74/home/aleks-zakhar/Documents/repos/simply-chocolate/dist/logo.9610d186.png1683183733003811182 0
 98/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/electron-to-chromium/package.json1682769659497689701 0
 84/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/posthtml/lib/api.js1682769659053688809 0
 107/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/entities/lib/generated/decode-data-html.js1682769659321689347 0
@@ -1589,11 +1589,11 @@
 108/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/fast-glob/out/providers/matchers/matcher.js1682769659549689805 0
 114/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/@parcel/runtime-js/lib/helpers/bundle-manifest.js1682769659225689154 0
 81/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/lmdb/SECURITY.md1682769660437691590 0
-78/home/aleks-zakhar/Documents/repos/simply-chocolate/dist/nazar@1x.aebc3546.png1682777994658998252 0
+78/home/aleks-zakhar/Documents/repos/simply-chocolate/dist/nazar@1x.aebc3546.png1683183733007811229 0
 88/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/@parcel/fs/src/index.js1682769659397689500 0
 102/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/@swc/helpers/lib/_set_prototype_of.js1682769659801690311 0
 105/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/caniuse-lite/data/features/decorators.js1682769660453691622 0
-78/home/aleks-zakhar/Documents/repos/simply-chocolate/dist/olena@1x.66c376ed.png1682777994662998236 0
+78/home/aleks-zakhar/Documents/repos/simply-chocolate/dist/olena@1x.66c376ed.png1683183733007811229 0
 88/home/aleks-zakhar/Documents/repos/simply-chocolate/src/images/desktop/recipe-vid@2x.png1682153175099274773 0
 100/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/caniuse-lite/data/regions/alt-ww.js1682769659653690013 0
 92/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/@lezer/common/dist/index.js1682769659345689395 0
@@ -1623,7 +1623,7 @@
 96/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/caniuse-lite/data/regions/SA.js1682769660601691919 0
 96/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/caniuse-lite/data/regions/TK.js1682769660621691960 0
 113/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/@parcel/runtime-js/src/helpers/get-worker-url.js1682769659573689853 0
-81/home/aleks-zakhar/Documents/repos/simply-chocolate/dist/seller-2@1x.b9597692.png1682777994762997870 0
+81/home/aleks-zakhar/Documents/repos/simply-chocolate/dist/seller-2@1x.b9597692.png1683183733047811687 0
 101/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/@swc/helpers/lib/_read_only_error.js1682769659797690303 0
 96/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/caniuse-lite/data/regions/GR.js1682769660521691758 0
 79/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/async/retry.js1682769660213691139 0
@@ -1636,7 +1636,7 @@
 84/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/type-fest/readme.md1682769659133688969 0
 110/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/caniuse-lite/data/features/getrandomvalues.js1682769660517691750 0
 86/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/@parcel/namer-default1682769659157689017 1
-79/home/aleks-zakhar/Documents/repos/simply-chocolate/dist/index.f7626f62.css.map1682778249514092073 0
+79/home/aleks-zakhar/Documents/repos/simply-chocolate/dist/index.f7626f62.css.map1683183732659807242 0
 83/home/aleks-zakhar/Documents/repos/simply-chocolate/src/images/desktop/olena@2x.png1682153175095274809 0
 97/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/chokidar/lib/fsevents-handler.js1682769659149689002 0
 107/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/caniuse-lite/data/features/style-scoped.js1682769660617691951 0
@@ -1706,7 +1706,7 @@
 93/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/mdn-data/css/properties.json1682769659677690061 0
 107/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/svgo/plugins/removeAttributesBySelector.js1682769659821690351 0
 75/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/parcel/src1682769659317689339 1
-80/home/aleks-zakhar/Documents/repos/simply-chocolate/dist/pr-milk@1x.4ba9f02b.png1682777994670998207 0
+80/home/aleks-zakhar/Documents/repos/simply-chocolate/dist/pr-milk@1x.4ba9f02b.png1683183733007811229 0
 156/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/side-effects-false-glob/sub/b/index.js1682769660217691147 0
 94/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/caniuse-lite/data/browsers.js1682769660073690857 0
 61/home/aleks-zakhar/Documents/repos/simply-chocolate/README.md1682153175079274955 0
@@ -1813,7 +1813,7 @@
 115/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/caniuse-lite/data/features/spellcheck-attribute.js1682769660613691943 0
 120/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/parcel-reporter-clean-dist/test/unit/opsLimiter.spec.js1682769659505689717 0
 107/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/@parcel/runtime-react-refresh/package.json1682769659197689098 0
-81/home/aleks-zakhar/Documents/repos/simply-chocolate/dist/pr-honey@1x.8bab75b4.png1682777994670998207 0
+81/home/aleks-zakhar/Documents/repos/simply-chocolate/dist/pr-honey@1x.8bab75b4.png1683183733011811274 0
 97/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/fs-extra/lib/json/output-json.js1682769659661690030 0
 96/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/caniuse-lite/data/regions/ET.js1682769660501691719 0
 116/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/@jridgewell/trace-mapping/dist/types/by-source.d.ts1682769659501689708 0
@@ -1860,9 +1860,9 @@
 91/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/async/internal/parallel.js1682769660145691002 0
 64/home/aleks-zakhar/Documents/repos/simply-chocolate/src/partials1682777011583610324 1
 99/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/@parcel/events/lib/ValueEmitter.js1682769659401689508 0
-83/home/aleks-zakhar/Documents/repos/simply-chocolate/dist/recipe-vid@1x.897885cb.png1682777994754997901 0
+83/home/aleks-zakhar/Documents/repos/simply-chocolate/dist/recipe-vid@1x.897885cb.png1683183733047811687 0
 115/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/@parcel/core/test/PublicMutableBundleGraph.test.js1682769660357691429 0
-81/home/aleks-zakhar/Documents/repos/simply-chocolate/dist/symbol-defs.a8b2e413.svg1682777994778997812 0
+81/home/aleks-zakhar/Documents/repos/simply-chocolate/dist/symbol-defs.a8b2e413.svg1683183733003811182 0
 86/home/aleks-zakhar/Documents/repos/simply-chocolate/src/images/desktop/seller-2@2x.png1682153175107274700 0
 111/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/@parcel/node-resolver-core/lib/NodeResolver.js1682769660329691372 0
 86/home/aleks-zakhar/Documents/repos/simply-chocolate/src/images/desktop/seller-1@1x.png1682153175099274773 0
@@ -1876,7 +1876,7 @@
 74/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/callsites1682769659113688929 1
 76/home/aleks-zakhar/Documents/repos/simply-chocolate/src/partials/header.html1682153175115274627 0
 77/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/domutils/lib1682769659597689901 1
-81/home/aleks-zakhar/Documents/repos/simply-chocolate/dist/seller-1@1x.4530e0c3.png1682777994742997944 0
+81/home/aleks-zakhar/Documents/repos/simply-chocolate/dist/seller-1@1x.4530e0c3.png1683183733043811641 0
 70/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/fastq1682769659373689451 1
 96/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/caniuse-lite/data/regions/CG.js1682769660181691074 0
 144/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/@parcel/source-map/parcel_sourcemap_wasm/dist-web/parcel_sourcemap_wasm_bg.wasm1682769660445691605 0
@@ -1919,7 +1919,7 @@
 99/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/caniuse-lite/data/features/ruby.js1682769660601691919 0
 78/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/trim-repeated1682769659045688792 1
 107/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/lmdb/node_modules/node-addon-api/nothing.c1682769658957688616 0
-78/home/aleks-zakhar/Documents/repos/simply-chocolate/dist/index.4eb9e4c7.js.map1682777994754997901 0
+78/home/aleks-zakhar/Documents/repos/simply-chocolate/dist/index.4eb9e4c7.js.map1683183732995811091 0
 72/home/aleks-zakhar/Documents/repos/simply-chocolate/src/sass/_about.scss1682153175119274591 0
 108/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/@parcel/workers/lib/threads/ThreadsChild.js1682769659681690070 0
 75/home/aleks-zakhar/Documents/repos/simply-chocolate/src/partials/about.html1682153175115274627 0
@@ -1928,9 +1928,9 @@
 96/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/caniuse-lite/data/regions/KH.js1682769660549691815 0
 96/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/posthtml-match-helper/readme.md1682769659053688809 0
 85/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/@parcel/packager-svg1682769659157689017 1
-82/home/aleks-zakhar/Documents/repos/simply-chocolate/dist/pr-orange@1x.22338b30.png1682777994670998207 0
+82/home/aleks-zakhar/Documents/repos/simply-chocolate/dist/pr-orange@1x.22338b30.png1683183733011811274 0
 62/home/aleks-zakhar/Documents/repos/simply-chocolate/src/images1682153175115274627 1
-74/home/aleks-zakhar/Documents/repos/simply-chocolate/dist/index.975ef6c8.js1682777994754997901 0
+74/home/aleks-zakhar/Documents/repos/simply-chocolate/dist/index.975ef6c8.js1683183732995811091 0
 96/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/caniuse-lite/data/regions/TZ.js1682769660633691984 0
 96/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/fast-glob/out/managers/tasks.js1682769659681690070 0
 105/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/@swc/helpers/lib/_to_consumable_array.js1682769659845690399 0
@@ -1954,7 +1954,7 @@
 120/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/posthtml-include/node_modules/posthtml-parser/readme.md1682769659229689162 0
 95/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/css-what/lib/es/stringify.d.ts1682769659637689982 0
 98/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/dom-serializer/lib/index.d.ts.map1682769659421689548 0
-82/home/aleks-zakhar/Documents/repos/simply-chocolate/dist/ing-choco@1x.c31145dd.png1682777994654998266 0
+82/home/aleks-zakhar/Documents/repos/simply-chocolate/dist/ing-choco@1x.c31145dd.png1683183733003811182 0
 77/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/once/LICENSE1682769659061688825 0
 90/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/reusify/benchmarks/fib.js1682769659297689298 0
 120/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/@parcel/package-manager/test/NodePackageManager.test.js1682769659817690343 0
@@ -2021,7 +2021,7 @@
 74/home/aleks-zakhar/Documents/repos/simply-chocolate/src/sass/_reviews.scss1682153175119274591 0
 116/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/caniuse-lite/data/features/requestanimationframe.js1682769660601691919 0
 109/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/@swc/helpers/src/_class_private_field_get.js1682769660133690978 0
-81/home/aleks-zakhar/Documents/repos/simply-chocolate/dist/victoria@1x.4550e6b2.png1682777994658998252 0
+81/home/aleks-zakhar/Documents/repos/simply-chocolate/dist/victoria@1x.4550e6b2.png1683183733007811229 0
 61/home/aleks-zakhar/Documents/repos/simply-chocolate/.parcelrc1682153175079274955 0
 92/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/fs-extra/lib/ensure/file.js1682769659545689796 0
 93/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/nth-check/lib/esm/compile.js1682769659137688978 0
@@ -2168,7 +2168,7 @@
 96/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/caniuse-lite/data/regions/SY.js1682769660617691951 0
 116/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/caniuse-lite/data/features/subresource-integrity.js1682769660617691951 0
 96/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/caniuse-lite/data/regions/MT.js1682769660569691855 0
-87/home/aleks-zakhar/Documents/repos/simply-chocolate/dist/ing-semi-choco@1x.bb97488c.png1682777994658998252 0
+87/home/aleks-zakhar/Documents/repos/simply-chocolate/dist/ing-semi-choco@1x.bb97488c.png1683183733007811229 0
 109/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/utility-types/dist/aliases-and-guards.js.map1682769659273689250 0
 93/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/weak-lru-cache/tests/test.js1682769659245689195 0
 79/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/ordered-binary1682769659417689539 1
@@ -2196,7 +2196,7 @@
 152/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/side-effects-false-glob/b/index.js1682769660177691067 0
 98/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/css-tree/lib/syntax/node/index.js1682769660237691188 0
 107/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/caniuse-lite/data/features/script-async.js1682769660605691927 0
-81/home/aleks-zakhar/Documents/repos/simply-chocolate/dist/ing-nuts@1x.fcb78414.png1682777994654998266 0
+81/home/aleks-zakhar/Documents/repos/simply-chocolate/dist/ing-nuts@1x.fcb78414.png1683183733003811182 0
 111/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/caniuse-lite/data/features/speech-synthesis.js1682769660613691943 0
 113/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/@swc/helpers/src/_possible_constructor_return.js1682769660253691219 0
 105/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/lmdb/dependencies/lz4/lib/dll/liblz4.def1682769660333691381 0
@@ -2581,7 +2581,7 @@
 90/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/fclone/dist/fclone.min.js1682769659245689195 0
 118/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/@parcel/transformer-postcss/lib/PostCSSTransformer.js1682769659365689436 0
 108/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/caniuse-lite/data/features/sharedworkers.js1682769660609691936 0
-78/home/aleks-zakhar/Documents/repos/simply-chocolate/dist/white@1x.9af2c949.png1682777994670998207 0
+78/home/aleks-zakhar/Documents/repos/simply-chocolate/dist/white@1x.9af2c949.png1683183733011811274 0
 127/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/parcel-reporter-clean-dist/test/fixtures/packageV5/files/embed1682769660253691219 1
 77/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/caniuse-lite1682769660653692024 1
 114/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/caniuse-lite/data/features/background-img-opts.js1682769659821690351 0
@@ -2655,7 +2655,7 @@
 73/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/inflight1682769659065688833 1
 88/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/node-gyp-build/index.js1682769659101688905 0
 105/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/@parcel/hash/parcel-hash.darwin-x64.node1682769659697690102 0
-76/home/aleks-zakhar/Documents/repos/simply-chocolate/src/sass/_sub-modal.scss1682778249374092558 0
+76/home/aleks-zakhar/Documents/repos/simply-chocolate/src/sass/_sub-modal.scss1683183721611680914 0
 95/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/svgo/plugins/removeComments.js1682769659837690383 0
 102/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/@parcel/transformer-babel/src/flow.js1682769659465689636 0
 114/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/caniuse-lite/data/features/css-scroll-timeline.js1682769660405691525 0
@@ -2792,7 +2792,7 @@
 110/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/caniuse-lite/data/features/insert-adjacent.js1682769660541691798 0
 109/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/caniuse-lite/data/features/iframe-sandbox.js1682769660525691767 0
 103/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/css-tree/lib/syntax/node/StyleSheet.js1682769660353691421 0
-81/home/aleks-zakhar/Documents/repos/simply-chocolate/dist/ing-milk@1x.cecc3ab6.png1682777994654998266 0
+81/home/aleks-zakhar/Documents/repos/simply-chocolate/dist/ing-milk@1x.cecc3ab6.png1683183733003811182 0
 106/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/caniuse-lite/data/features/will-change.js1682769660649692016 0
 118/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/caniuse-lite/data/features/font-variant-east-asian.js1682769660509691734 0
 85/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/is-glob/package.json1682769659065688833 0
@@ -2878,7 +2878,7 @@
 85/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/json5/lib/require.js1682769659417689539 0
 111/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/caniuse-lite/data/features/css-text-justify.js1682769660417691550 0
 103/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/caniuse-lite/data/features/push-api.js1682769660593691903 0
-81/home/aleks-zakhar/Documents/repos/simply-chocolate/dist/pr-apple@1x.35781251.png1682777994670998207 0
+81/home/aleks-zakhar/Documents/repos/simply-chocolate/dist/pr-apple@1x.35781251.png1683183733007811229 0
 116/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/caniuse-lite/data/features/text-underline-offset.js1682769660621691960 0
 96/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/caniuse-lite/data/regions/RO.js1682769660601691919 0
 79/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/fclone/LICENSE1682769659109688921 0
@@ -4121,7 +4121,7 @@
 82/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/csso/lib/usage.js1682769660009690729 0
 92/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/@parcel/workers/lib/threads1682769659689690086 1
 98/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/csso/lib/replace/property/font.js1682769659813690335 0
-79/home/aleks-zakhar/Documents/repos/simply-chocolate/src/partials/sub-modal.html1682777993927000934 0
+79/home/aleks-zakhar/Documents/repos/simply-chocolate/src/partials/sub-modal.html1683183099338103353 0
 100/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/csso/lib/replace/property/border.js1682769659569689844 0
 126/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/@parcel/core/test/fixtures/config-extends-not-found/.parcelrc1682769659125688953 0
 105/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/csso/lib/replace/property/font-weight.js1682769659809690327 0
@@ -5058,7 +5058,7 @@
 99/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/@parcel/core/src/CommittedAsset.js1682769660077690866 0
 83/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/@parcel/logger/lib1682769659033688768 1
 96/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/@parcel/core/src/projectPath.js1682769660353691421 0
-85/home/aleks-zakhar/Documents/repos/simply-chocolate/dist/pr-pineapple@1x.fa757f6e.png1682777994670998207 0
+85/home/aleks-zakhar/Documents/repos/simply-chocolate/dist/pr-pineapple@1x.fa757f6e.png1683183733011811274 0
 101/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/@swc/helpers/lib/_super_prop_base.js1682769659821690351 0
 110/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/lmdb/node_modules/node-addon-api/node_api.gyp1682769659041688785 0
 99/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/@parcel/core/src/PackagerRunner.js1682769660305691324 0
@@ -5118,7 +5118,7 @@
 95/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/cosmiconfig/dist/Explorer.d.ts1682769659657690022 0
 85/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/@parcel/reporter-cli1682769659593689893 1
 105/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/@parcel/codeframe/test/codeframe.test.js1682769660097690905 0
-81/home/aleks-zakhar/Documents/repos/simply-chocolate/dist/hero-bg@1x.a8d005fa.webp1682777994450999014 0
+81/home/aleks-zakhar/Documents/repos/simply-chocolate/dist/hero-bg@1x.a8d005fa.webp1683183732587806417 0
 86/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/@parcel/codeframe/src1682769660057690826 1
 86/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/@parcel/codeframe/lib1682769660105690922 1
 99/home/aleks-zakhar/Documents/repos/simply-chocolate/node_modules/@parcel/codeframe/lib/codeframe.js1682769660053690817 0
