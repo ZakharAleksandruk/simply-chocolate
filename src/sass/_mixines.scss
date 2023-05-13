@@ -1,0 +1,58 @@
+@mixin section-title($section-title: $title) {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    color: $section-title;
+
+    @media screen and (min-width: 768px) {
+        font-size: 24px;
+        line-height: 1.17;
+    }
+}
+
+@mixin btn($btn-color: #ffffff, $btn-bg: $accent) {
+    padding: 12px 28px;
+    font-weight: 600;
+    font-size: 14;
+    line-height: 1.21;
+    color: $btn-color;
+    background: $btn-bg;
+    border-radius: 100px;
+
+    @media screen and (min-width: 768px) {
+        font-size: 18px;
+        line-height: 1.22;
+        padding: 14px 40px;
+    }
+}
+
+@mixin text($text-color: $title) {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: $text-color;
+}
+
+@mixin link($link-color: $title) {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+    color: $link-color;
+}
+
+@mixin list-title($list-title-color: $title) {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.33;
+    text-align: center;
+    color: $list-title-color;
+}
