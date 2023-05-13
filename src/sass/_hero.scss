@@ -5,8 +5,8 @@ $pink-primary: hsl(35, 83%, 93%);
 .main {
     margin: 30px auto 72px auto;
     position: relative;
-    max-width: 71rem;
-    height: 37.5rem;
+    width: 1136px;
+    height: 600px;
     object-fit: cover;
     object-position: 50% 50%;
     background-image: url("../images/desktop/hero-bg@1x.webp");
@@ -17,7 +17,9 @@ $pink-primary: hsl(35, 83%, 93%);
 .main-title {
     max-width: 28.125rem;
     position: absolute;
-    font-size: 2rem;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px;
     left: 40px;
     bottom: 117px;
     color: $white-primary;
@@ -31,14 +33,15 @@ $pink-primary: hsl(35, 83%, 93%);
     gap: 1rem;
 
     button {
-        width: 9.375rem;
-        height: 2.5rem;
         border: 0;
-        border-radius: 25px;
+        border-radius: 100px;
         color: $white-primary;
         transition: 0.3s;
 
         &:first-child {
+            width: 144px;
+            height: 45px;
+
             background-color: $orange-primary;
 
             &:hover {
@@ -48,6 +51,8 @@ $pink-primary: hsl(35, 83%, 93%);
         }
 
         &:last-child {
+            width: 183px;
+            height: 45px;
             border: solid 1px $white-primary;
             background-color: transparent;
 
@@ -69,6 +74,12 @@ $pink-primary: hsl(35, 83%, 93%);
     right: 40px;
     color: $white-primary;
     gap: 0.7rem;
+
+    p {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+    }
 }
 
 .icon {
@@ -77,6 +88,33 @@ $pink-primary: hsl(35, 83%, 93%);
     border: 0;
     border-radius: 50%;
     background-color: $white-primary;
+}
+
+@media (max-width: 768px) {
+    .main {
+        width: 704px;
+        height: 890px;
+    }
+
+    .main-title {
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    .btn-container {
+        button {
+            &:first-child {
+                width: 144px;
+                height: 45px;
+            }
+
+            &:last-child {
+                width: 183px;
+                height: 45px;
+            }
+        }
+    }
 }
 
 @media (max-width: 650px) {
@@ -96,5 +134,32 @@ $pink-primary: hsl(35, 83%, 93%);
     .scroll {
         bottom: 32px;
         left: 20px;
+    }
+}
+
+@media (max-width: 375px) {
+    .main {
+        width: 335px;
+        height: 621px;
+    }
+
+    .main-title {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .btn-container {
+        button {
+            &:first-child {
+                width: 120px;
+                height: 41px;
+            }
+
+            &:last-child {
+                width: 103px;
+                height: 17px;
+            }
+        }
     }
 }

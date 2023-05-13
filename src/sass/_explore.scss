@@ -15,16 +15,23 @@ $pink-primary: hsl(35, 83%, 93%);
     margin-top: 30px;
     color: $white-primary;
     gap: 2rem;
+    padding: 0 24.5px;
 
     p {
         text-align: center;
 
         &:first-child {
             text-align: center;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 28px;
         }
 
         &:nth-child(2) {
             max-width: 470px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 18px;
         }
     }
 
@@ -32,7 +39,7 @@ $pink-primary: hsl(35, 83%, 93%);
         width: 9.375rem;
         height: 2.5rem;
         border: 0;
-        border-radius: 25px;
+        border-radius: 100px;
         color: $white-primary;
         transition: 0.3s;
         background-color: $orange-primary;
@@ -40,6 +47,26 @@ $pink-primary: hsl(35, 83%, 93%);
         &:hover {
             color: $orange-primary;
             background-color: $pink-primary;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .explore {
+        button {
+            width: 172px;
+            height: 50px;
+            border-radius: 100px;
+        }
+    }
+}
+
+@media (max-width: 375px) {
+    .explore {
+        button {
+            width: 128px;
+            height: 41px;
+            border-radius: 100px;
         }
     }
 }

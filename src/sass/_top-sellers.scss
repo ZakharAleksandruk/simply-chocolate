@@ -42,7 +42,7 @@ $pink-primary: hsl(35, 83%, 93%);
         width: 9.375rem;
         height: 2.5rem;
         border: 0;
-        border-radius: 25px;
+        border-radius: 100px;
         color: $white-primary;
         transition: 0.3s;
         background-color: $orange-primary;
@@ -54,8 +54,36 @@ $pink-primary: hsl(35, 83%, 93%);
     }
 }
 
+@media (max-width: 768px) {
+    .img-container > img {
+        width: 344px;
+        height: 464px;
+    }
+
+    .text-btn-container {
+        button {
+            width: 162px;
+            height: 50px;
+        }
+    }
+}
+
 @media (max-width: 700px) {
     .text-btn-container {
         padding: 32px 50px 0 50px;
+    }
+}
+
+@media (max-width: 375px) {
+    .img-container > img {
+        width: 335px;
+        height: 464px;
+    }
+
+    .text-btn-container {
+        button {
+            width: 120px;
+            height: 41px;
+        }
     }
 }
