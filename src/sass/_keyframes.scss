@@ -1,0 +1,17 @@
+@keyframes background {
+    0% {
+        background-color: $bg;
+    }
+
+    50% {
+        background-color: #1f1824;
+    }
+
+    75% {
+        background-color: #1f1724;
+    }
+
+    100% {
+        background-color: #201726;
+    }
+}
