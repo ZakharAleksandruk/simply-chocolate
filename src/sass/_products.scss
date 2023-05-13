@@ -8,23 +8,17 @@
 }
 
 .products__title {
-    font-weight: 600;
-font-size: 24px;
-line-height: 1.17;
-text-align: center;
-letter-spacing: -0.03em;
-text-transform: uppercase;
-color: #111111;
+    @include section-title();
 margin-bottom: 50px;
 }
 
 .products__span {
-    color: #FD9222;
+    color: $accent;
 }
 
 .products-swiper__slide {
-    background: #FFFFFF;
-border: 1px solid rgba(17, 17, 17, 0.1);
+    background: $bg-title;
+border: 1px solid $text;
 border-radius: 15px;
 padding: 32px 20px;
 margin-right: 18px;
@@ -48,7 +42,7 @@ font-size: 18px;
 line-height: 1.33;
 letter-spacing: -0.02em;
 text-transform: uppercase;
-color: #111111;
+color: $title;
 text-align: center;
 }
 
@@ -57,7 +51,7 @@ text-align: center;
 font-size: 12px;
 line-height: 1.17;
 letter-spacing: -0.02em;
-color: rgba(17, 17, 17, 0.7);
+color: $text;
 text-align: center;
 }
 
@@ -65,10 +59,10 @@ text-align: center;
     font-weight: 600;
 font-size: 14px;
 line-height: 1.21;
-color: #111111;
+color: $title;
 padding: 8px 20px;
 background: #FAFAFA;
-border: 1px solid rgba(17, 17, 17, 0.1);
+border: 1px solid $text;
 border-radius: 100px;
 display: block;
 margin-right: auto;
