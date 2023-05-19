@@ -1,17 +1,59 @@
 <section id="reviews" class="reviews">
-    <div class="container">
-    <h2 class="reviews__title"><span class="reviews__span">chocolate</span> is loved</h2>
-    <swiper-container class="reviews-list" slides-per-view="3" speed="500" loop="true" css-mode="true">
-  <swiper-slide class="reviews-list__item"> <img class="reviews-list__photo" src="./images/desktop/victoria@1x.png" alt="victoria">
-            <h3 class="reviews-list__title">Victoria Dobrzhanska</h3>
-            <p class="reviews-list__text">I love this chocolate bar. Perfect combination of light crispy wafer, covered in a thin layer chocolate.</p></swiper-slide>
-  <swiper-slide class="reviews-list__item"> <img class="reviews-list__photo" src="./images/desktop/nazar@1x.png" alt="nazar">
-            <h3 class="reviews-list__title">Nazar Babenko</h3>
-            <p class="reviews-list__text">This chocolate confection is a delight! A delight! The wafer is light and crisp, the hazelnut cream is smooth, and the chocolate is good.</p></swiper-slide>
-  <swiper-slide class="reviews-list__item"> <img class="reviews-list__photo" src="./images/desktop/olena@1x.png" alt="olena">
-            <h3 class="reviews-list__title">Olena Kampusch</h3>
-            <p class="reviews-list__text"> Chocolate is a family favourite treat. Love the delicious smooth chocolate and the creaminess inside. The wafer is soft but crunchy.</p></swiper-slide>
-</swiper-container>
-    <button data-open-reviews-form class="reviews__btn" type="button">Leave a review</button>
+    <div class="container container-swiper">
+        <h2 class="reviews__title">
+            <span class="reviews__span">chocolate</span> is loved
+        </h2>
+        <div class="reviews-swiper reviewsSwiper">
+            <ul
+                class="reviews-list swiper-wrapper"
+                slides-per-view="3"
+                speed="500"
+                loop="true"
+                css-mode="true"
+            >
+                <li class="reviews-list__item swiper-slide">
+                    <img
+                        class="reviews-list__photo"
+                        src="./images/desktop/victoria@1x.png"
+                        alt="victoria"
+                    />
+                    <h3 class="reviews-list__title">Victoria Dobrzhanska</h3>
+                    <p class="reviews-list__text">
+                        I love this chocolate bar. Perfect combination of light
+                        crispy wafer, covered in a thin layer chocolate.
+                    </p></li
+                >
+                <li class="reviews-list__item swiper-slide">
+                    <img
+                        class="reviews-list__photo"
+                        src="./images/desktop/nazar@1x.png"
+                        alt="nazar"
+                    />
+                    <h3 class="reviews-list__title">Nazar Babenko</h3>
+                    <p class="reviews-list__text">
+                        This chocolate confection is a delight! A delight! The
+                        wafer is light and crisp, the hazelnut cream is smooth,
+                        and the chocolate is good.
+                    </p></li
+                >
+                <li class="reviews-list__item swiper-slide">
+                    <img
+                        class="reviews-list__photo"
+                        src="./images/desktop/olena@1x.png"
+                        alt="olena"
+                    />
+                    <h3 class="reviews-list__title">Olena Kampusch</h3>
+                    <p class="reviews-list__text">
+                        Chocolate is a family favourite treat. Love the
+                        delicious smooth chocolate and the creaminess inside.
+                        The wafer is soft but crunchy.
+                    </p></li
+                >
+            </ul>
+        </div>
+        <div class="reviews-swiper-pagination"></div>
+        <button data-open-reviews-form class="reviews__btn" type="button">
+            Leave a review
+        </button>
     </div>
 </section>
