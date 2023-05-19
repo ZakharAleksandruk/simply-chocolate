@@ -2,6 +2,7 @@
     background: $bg;
     padding-top: 20px;
     padding-bottom: 20px;
+    animation: background 5s linear infinite both;
 
     @media screen and (min-width: 768px) {
         padding-top: 50px;
@@ -41,6 +42,10 @@
     }
 }
 
+.about-list__item:hover .about-list__icon {
+    transform: scale(1.2);
+}
+
 .about-list__item:nth-child(2) {
     position: relative;
 }
@@ -75,6 +80,7 @@
 
 .about-list__icon {
     fill: $accent;
+    transition: transform 250ms cubic-bezier(0.075, 0.82, 0.165, 1) 250ms;
 }
 
 .about-list__circle {
@@ -97,10 +103,6 @@
 }
 
 .about-list__text {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.21;
-    letter-spacing: -0.02em;
-    color: $second-color;
+    @include text($text-color: $second-color);
     max-width: 308px;
 }
