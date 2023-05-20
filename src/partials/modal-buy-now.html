@@ -1,67 +1,74 @@
-<div class="buy-modal">
-    <p class="buy-modal-title"><span>Buy</span> Now</p>
-    <div class="buy-modal-product-container">
-        <div class="buy-modal-product">
-            <img src="./images/desktop/ing-choco@1x.png" alt="chocolate" />
-            <div class="grams">
-                <p>100g</p>
-            </div>
-        </div>
-        <div class="buy-modal-product">
-            <img src="./images/desktop/ing-choco@1x.png" alt="chocolate" />
-            <div class="grams">
-                <p>200g</p>
-            </div>
-        </div>
-        <div class="buy-modal-product">
-            <img src="./images/desktop/ing-choco@1x.png" alt="chocolate" />
-            <div class="grams">
-                <p>300g</p>
-            </div>
-        </div>
-    </div>
-    <div class="field-container f-container">
-        <div class="name f-container">
+<section class="backdrop hide">
+    <div class="buy-modal">
+        <button class="cross-btn-m-buy">
+            <svg class="cross-m-buy">
+                <use href="./images/symbol-defs.svg#cross"></use>
+            </svg>
+        </button>
+        <p class="buy-modal-title"><span>Buy</span> Now</p>
+        <ul class="buy-modal-product-container">
+            <li class="buy-modal-product">
+                <img src="./images/desktop/ing-choco@1x.png" alt="chocolate" />
+                <div class="grams">
+                    <p>100g</p>
+                </div>
+            </li>
+            <li class="buy-modal-product">
+                <img src="./images/desktop/ing-choco@1x.png" alt="chocolate" />
+                <div class="grams">
+                    <p>200g</p>
+                </div>
+            </li>
+            <li class="buy-modal-product">
+                <img src="./images/desktop/ing-choco@1x.png" alt="chocolate" />
+                <div class="grams">
+                    <p>300g</p>
+                </div>
+            </li>
+        </ul>
+        <form class="field-container f-container">
+            <ul class="name f-container">
+                <li class="i-container">
+                    <label for="name">Name</label>
+                    <input id="name" type="text" placeholder="Name" />
+                </li>
+                <li class="i-container">
+                    <label for="surname">Surname</label>
+                    <input id="surname" type="text" placeholder="Surname" />
+                </li>
+            </ul>
             <div class="i-container">
-                <label for="name">Name</label>
-                <input id="name" type="text" placeholder="Name" />
+                <label for="email">Email</label>
+                <input id="email" type="email" placeholder="Enter your email" />
             </div>
             <div class="i-container">
-                <label for="surname">Surname</label>
-                <input id="surname" type="text" placeholder="Surname" />
+                <label for="tel">Phone number</label>
+                <input
+                    id="tel"
+                    type="tel"
+                    placeholder="Phone number"
+                    maxlength="13"
+                />
             </div>
-        </div>
-        <div class="i-container">
-            <label for="email">Email</label>
-            <input id="email" type="email" placeholder="Enter your email" />
-        </div>
-        <div class="i-container">
-            <label for="tel">Phone number</label>
-            <input
-                id="tel"
-                type="tel"
-                placeholder="Phone number"
-                maxlength="13"
-            />
-        </div>
-        <div class="i-container">
-            <label for="card">Card number</label>
-            <input
-                id="card"
-                inputmode="numeric"
-                pattern="[0-9\s]{13,19}"
-                maxlength="19"
-                placeholder="Enter card"
-            />
-        </div>
-        <div class="i-container">
-            <label for="comment">Comment</label>
-            <textarea
-                name="comment"
-                id="comment"
-                placeholder="Enter text"
-            ></textarea>
-        </div>
+            <div class="i-container">
+                <label for="card">Card number</label>
+                <input
+                    id="card"
+                    inputmode="numeric"
+                    pattern="[0-9\s]{13,19}"
+                    maxlength="19"
+                    placeholder="Enter card"
+                />
+            </div>
+            <div class="i-container">
+                <label for="comment">Comment</label>
+                <textarea
+                    name="comment"
+                    id="comment"
+                    placeholder="Enter text"
+                ></textarea>
+            </div>
+            <button class="buy-modal-btn" type="submit">Submit</button>
+        </form>
     </div>
-    <button class="buy-modal-btn" type="submit">Submit</button>
-</div>
+</section>

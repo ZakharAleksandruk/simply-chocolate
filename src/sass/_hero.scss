@@ -3,9 +3,9 @@ $orange-primary: hsl(31, 98%, 56%);
 $pink-primary: hsl(35, 83%, 93%);
 
 .main {
-    margin: 30px auto 72px auto;
+    margin: 30px 32px 72px 32px;
     position: relative;
-    width: 1136px;
+    max-width: 1136px;
     height: 600px;
     object-fit: cover;
     object-position: 50% 50%;
@@ -92,7 +92,7 @@ $pink-primary: hsl(35, 83%, 93%);
 
 @media (max-width: 768px) {
     .main {
-        width: 704px;
+        max-width: 704px;
         height: 890px;
     }
 
@@ -118,10 +118,6 @@ $pink-primary: hsl(35, 83%, 93%);
 }
 
 @media (max-width: 650px) {
-    .main {
-        width: 38.813rem;
-    }
-
     .main-title {
         font-size: 1.5rem;
         bottom: 154px;
@@ -139,8 +135,9 @@ $pink-primary: hsl(35, 83%, 93%);
 
 @media (max-width: 375px) {
     .main {
-        width: 335px;
+        max-width: 335px;
         height: 621px;
+        margin: 0 20px;
     }
 
     .main-title {
@@ -157,8 +154,8 @@ $pink-primary: hsl(35, 83%, 93%);
             }
 
             &:last-child {
-                width: 103px;
-                height: 17px;
+                width: 159px;
+                height: 41px;
             }
         }
     }
