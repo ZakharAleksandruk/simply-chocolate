@@ -19,12 +19,7 @@ $pink-primary: hsl(35, 83%, 93%);
 }
 
 .main {
-    position: relative;
-    max-width: 335px;
-    height: 620px;
-    // object-fit: cover;
-    // object-position: 50% 50%;
-    background-image: url(../images/mobile/hero-bg@1x.jpg);
+
     border: 0;
     border-radius: 25px;
 
@@ -123,13 +118,7 @@ $pink-primary: hsl(35, 83%, 93%);
     }
 }
 
-.scroll__text {
-    font-weight: 500;
-font-size: 12px;
-line-height: 1.17;
-letter-spacing: -0.03em;
-color: #FFFFFF;
-margin-right: 12px;
+
 
 @media screen and (min-width: 768px) {
         font-weight: 500;
@@ -138,14 +127,7 @@ line-height: 1.29;
     }
 }
 
-.scroll__btn {
-    background: #FFFFFF;
-    border-radius: 100%;
-    width: 28px;
-    height: 28px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
 
     @media screen and (min-width: 768px) {
         width: 38px;
@@ -153,13 +135,6 @@ line-height: 1.29;
     }
 }
 
-.scroll-icon {
-    fill: #fd9222;
-    width: 16px;
-    height: 16px;
 
-    @media screen and (min-width: 768px) {
-        width: 22px;
-    height: 22px;
     }
 }

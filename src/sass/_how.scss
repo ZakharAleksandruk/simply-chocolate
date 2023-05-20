@@ -30,11 +30,12 @@ $orange-primary: hsl(31, 98%, 56%);
     flex-wrap: wrap;
     margin-top: 50px;
     gap: 20px;
+    padding: 0 34px;
 }
 
 .how-wrapper > img {
     width: 600px;
-    height: 400px;
+    height: auto;
     border: 0;
     border-radius: 15px;
 }
@@ -55,7 +56,6 @@ $orange-primary: hsl(31, 98%, 56%);
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
         gap: 24px;
         padding-left: 32px;
 
@@ -71,7 +71,7 @@ $orange-primary: hsl(31, 98%, 56%);
 @media (max-width: 768px) {
     .how-wrapper > img {
         width: 614px;
-        height: 400px;
+        height: auto;
     }
 }
 
@@ -81,9 +81,9 @@ $orange-primary: hsl(31, 98%, 56%);
     }
 }
 
-@media (max-width: 375px) {
+@media (min-width: 375px) {
     .how-wrapper > img {
         width: 335px;
-        height: 500px;
+        height: auto;
     }
 }

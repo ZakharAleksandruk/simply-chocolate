@@ -3,13 +3,62 @@ $orange-primary: hsl(31, 98%, 56%);
 $white-primary: hsl(0, 0%, 100%);
 $pink-primary: hsl(35, 83%, 93%);
 
+.hide {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.cross-btn-m-buy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    background-color: transparent;
+
+    &:active svg {
+        fill: $accent;
+        stroke: $accent
+    }
+}
+
+.cross-m-buy {
+    width: 28px;
+    height: 28px;
+    fill: $title;
+    stroke: $title;
+}
+
+.backdrop {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    overflow: auto;
+    backdrop-filter: blur(5px);
+}
+
 .buy-modal {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 609px;
-    padding: 48px;
-    margin: 0 auto;
+    max-width: 311px;
+    width: 100%; 
+    min-height: auto; 
+    padding: 48px; 
+    padding: 24px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: $bg-title;   
+    position: absolute;
+    border: 0.5px solid $bg;
 }
 
 .buy-modal-title {
@@ -27,6 +76,8 @@ $pink-primary: hsl(35, 83%, 93%);
     display: flex;
     justify-content: center;
     align-items: center;
+    //flex-wrap: wrap; 
+    flex-direction: column;
     gap: 16px;
     margin-top: 32px;
 }
@@ -40,10 +91,20 @@ $pink-primary: hsl(35, 83%, 93%);
     padding: 20px;
     border: 1px solid $grey-primary;
     border-radius: 25px;
+    width: 263px;
+    height: 85px;
+
+    &:nth-child(2) {
+        display: none;
+    }
+
+    &:last-child {
+        display: none;
+    }
 
     img {
-        width: 120px;
-        height: 107px;
+        width: 84px;
+        height: 69px;
     }
 }
 
@@ -88,15 +149,21 @@ $pink-primary: hsl(35, 83%, 93%);
     }
 
     input {
-        max-width: 513px;
-        height: 66px;
+        max-width: 263px;
+        height: 45px;
         position: relative;
     }
 
     textarea {
-        width: 513px;
-        height: 137px;
+        width: 263px;
+        height: 91px;
         resize: none;
+    }
+
+    label {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
     }
 }
 
@@ -114,4 +181,45 @@ $pink-primary: hsl(35, 83%, 93%);
         color: $orange-primary;
         background-color: $pink-primary;
     }
+}
+
+@media (min-width: 768px) {
+    .buy-modal {
+        max-width: 609px;
+        padding: 40px;
+    }
+     
+    .buy-modal-product-container {
+        flex-direction: row;
+    }
+
+    .buy-modal-product {
+        width: 160px;
+        height: 169px;
+
+        &:nth-child(2) {
+            display: block;
+        }
+
+        &:last-child {
+            display: block; 
+        }
+
+        img { 
+            width: 120px;
+            height: 107px;
+        }
+    }   
+
+    .i-container {
+        input {
+            max-width: 513px;
+            height: 66px;
+        }
+
+        textarea {
+            max-width: 513px;
+            height: 137px;
+        }
+    } 
 }
