@@ -76,7 +76,9 @@
     margin-right: auto;
     border: 1px solid $accent;
     background-color: transparent;
-
+     transition: background 250ms cubic-bezier(0.075, 0.82, 0.165, 1) 250ms, 
+  color 250ms cubic-bezier(0.075, 0.82, 0.165, 1) 250ms,
+  transform 250ms cubic-bezier(0.075, 0.82, 0.165, 1) 250ms;
 }
 
 .reviews__btn:hover {
