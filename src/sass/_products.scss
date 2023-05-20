@@ -1,31 +1,67 @@
 .products {
-    padding-top: 128px;
+    padding-bottom: 173px;
 }
 
-.products-swiper {
-    display: flex;
-    gap: 18px;
+.container-swiper {
+    // height: 442px;
+    width: auto;
+}
+
+// .products-swiper {
+//     display: flex;
+//     gap: 18px;
+// }
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+    bottom: auto;
+    margin-top: 20px;
+}
+
+.swiper-pagination-bullet {
+    width: 13px;
+    height: 13px;
+}
+
+.swiper-pagination-bullet-active {
+    transition: background 1250ms var(--transition-type);
+    transition: width 250ms var(--transition-type);
+}
+.swiper-pagination-bullet-active {
+    background: #fd9222;
+    width: 28px;
+    height: 13px;
+    border-radius: 25px;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+    margin-top: 32px;
 }
 
 .products__title {
     @include section-title();
-margin-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .products__span {
     color: $accent;
 }
 
-.products-swiper__slide {
+.swiper-slide {
     background: $bg-title;
-border: 1px solid $text;
-border-radius: 15px;
-padding: 32px 20px;
-margin-right: 18px;
-width: 270px;
+    border: 1px solid rgba(17, 17, 17, 0.1);
+    border-radius: 15px;
+    padding: 32px 20px;
+    margin-right: 18px;
+    width: auto;
 }
 
-.products-swiper__slide:last-child {
+.swiper-slide:last-child {
     margin-right: 0;
 }
 
@@ -38,34 +74,35 @@ width: 270px;
 
 .products-swiper__title {
     font-weight: 600;
-font-size: 18px;
-line-height: 1.33;
-letter-spacing: -0.02em;
-text-transform: uppercase;
-color: $title;
-text-align: center;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: $title;
+    text-align: center;
+    margin-bottom: 2px;
 }
 
 .products-swiper__text {
     font-weight: 400;
-font-size: 12px;
-line-height: 1.17;
-letter-spacing: -0.02em;
-color: $text;
-text-align: center;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    color: $text;
+    text-align: center;
+    margin-bottom: 18px;
 }
 
 .products-swiper__btn {
     font-weight: 600;
-font-size: 14px;
-line-height: 1.21;
-color: $title;
-padding: 8px 20px;
-background: #FAFAFA;
-border: 1px solid $text;
-border-radius: 100px;
-display: block;
-margin-right: auto;
-margin-left: auto;
+    font-size: 14px;
+    line-height: 1.21;
+    color: $title;
+    padding: 8px 20px;
+    background: #fafafa;
+    border: 1px solid rgba(17, 17, 17, 0.1);
+    border-radius: 100px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
-

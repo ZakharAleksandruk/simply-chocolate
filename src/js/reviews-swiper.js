@@ -1,9 +1,9 @@
 (() => {
-    var swiper = new Swiper(".mySwiper", {
+    var swiper = new Swiper(".reviewsSwiper", {
         slidesPerView: 1,
         spaceBetween: 10,
         pagination: {
-            el: ".swiper-pagination",
+            el: ".reviews-swiper-pagination",
             clickable: true,
         },
         breakpoints: {
@@ -12,12 +12,12 @@
                 spaceBetween: 0,
             },
             768: {
-                slidesPerView: 2.5,
-                spaceBetween: 18,
+                slidesPerView: 2,
+                spaceBetween: 16,
             },
             1200: {
-                slidesPerView: 4,
-                spaceBetween: 18,
+                slidesPerView: 3,
+                spaceBetween: 28,
             },
         },
     });
