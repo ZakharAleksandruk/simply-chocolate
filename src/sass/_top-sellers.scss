@@ -24,18 +24,27 @@ $pink-primary: hsl(35, 83%, 93%);
     img { 
         border-radius: 10px;
     }
+
+    p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        max-width: 306px;
+    }
 }
 
 .text-btn-container {
-    width: 100vw;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    gap: 2rem;
-    padding: 32px 200px 0 200px;
+    padding: 32px 0;
 
     p {
-        width: 400px;
+        max-width: 306px;
+        display: none;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
     }
 
     button {
@@ -63,22 +72,28 @@ $pink-primary: hsl(35, 83%, 93%);
 }
 
 @media (min-width: 768px) {
-    .img-container > img {
-        width: 344px;
-        height: auto;
+    .img-container  {
+        img {
+            width: 344px;
+            height: auto;
+        }
+
+        p {
+            display: none;
+        }
     }
 
     .text-btn-container {
+        justify-content: space-between;
+        
+        p {
+            display: block;
+        }
+
         button {
             width: 162px;
             height: 50px;
         }
-    }
-}
-
-@media (max-width: 700px) {
-    .text-btn-container {
-        padding: 32px 50px 0 50px;
     }
 }
 
