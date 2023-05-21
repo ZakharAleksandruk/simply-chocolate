@@ -1,7 +1,11 @@
 <div class="how-container">
     <p class="title">How It's <span class="orange">Made</span></p>
     <div class="how-wrapper">
-        <img src="./images/desktop/recipe-vid@1x.png" alt="mixing chocolate" />
+        <picture>
+            <source srcset="./images/desktop/recipe-vid-tablet.png" media="(max-width: 768px)"/>
+            <source srcset="./images/desktop/recipe-vid-mobile.png" media="(max-width: 375px)"/>
+            <img src="./images/desktop/recipe-vid@1x.png" alt="mixing chocolate" />  
+        </picture>
         <div class="how-text">
             <p>
                 Try our chocolates today and discover the perfect balance of
