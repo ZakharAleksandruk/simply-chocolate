@@ -19,6 +19,10 @@ $black-primary: hsl(0, 0%, 0%);
     } 
 }
 
+.header > .container  {
+    position: relative;
+}
+
 .header__content {
     display: flex;
     align-items: center;
@@ -90,6 +94,8 @@ line-height: 1.29;
     width: 28px;
     height: 28px;
     cursor: pointer;
+    position: absolute;
+    right: 20px;
 
     @media screen and (min-width: 768px) {
     width: 32px;

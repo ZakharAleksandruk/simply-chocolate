@@ -1,28 +1,25 @@
-$bg: hsl(273, 19%, 12%);
-$white-primary: hsl(100, 100%, 100%);
-$orange-primary: hsl(31, 98%, 56%);
-
 @keyframes slide-in {
     0% {
-        opacity: 0;
         transform: translateX(300px);
     }
 
     100% {
-        opacity: 100;
+        opacity: 1;
         transform: translateX(0);
     }
 }
 
-.show {
-    display: flex !important;
+.hide {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
 }
 
 .drawer {
     width: 290px;
     height: 100vh;
     position: absolute;
-    display: none;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -31,39 +28,94 @@ $orange-primary: hsl(31, 98%, 56%);
     right: 0;
     z-index: 999;
     background-color: $bg;
-    animation: slide-in 0.6s;
+    transition: 0.25s;
 
     a {
-        color: $white-primary;
-        font-size: 1rem;
+        color: $bg-title;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
         transition: color 0.3s;
 
         &:hover {
-            color: $orange-primary;
+            color: $accent;
         }
     }
 }
 
-.cross {
+.cross-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
-    width: 13px;
-    height: 13px;
-    top: 33.33px;
-    right: 41.33px;
+    width: 28px;
+    height: 28px;
+    top: 20px;
+    right: 20px;
     cursor: pointer;
+    background-color: transparent;
+
+    &:active svg {
+        fill: $accent;
+        stroke: $accent
+    }
+}
+
+.cross {
+    width: 28px;
+    height: 28px;
+    fill: $bg-title;
+    stroke: $bg-title;
 }
 
 .drawer-socials {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 21px;
+    gap: 18px;
     position: absolute;
     bottom: 26px;
     left: 36px;
 
     svg {
-        width: 22px;
-        height: 17.94px;
+        width: 24px;
+        height: 24px;
+        fill: $bg-title;
+        cursor: pointer;
+
+        &:hover {
+            fill: transparent;
+            stroke: $accent;
+            transition: 0.3s;
+        }
+
+        &:first-child {
+            fill: $bg-title;
+            stroke: $title;
+            stroke-width: 2.6px;
+            transition: stroke 0.3s;
+
+            &:hover {
+                fill: transparent;
+                stroke: $accent;
+                transition: 0.3s;
+            }
+        }
+    }
+}
+
+
+
+@media (min-width: 768px) {
+    .drawer {
+        a {
+            font-weight: 600;
+        }
+    }
+    .cross-btn {
+        width: 32px;
+        height: 32px;
+        top: 24px;
+        right: 32px;
     }
 }

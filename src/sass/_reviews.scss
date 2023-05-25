@@ -76,7 +76,9 @@
     margin-right: auto;
     border: 1px solid $accent;
     background-color: transparent;
-
+     transition: background 250ms cubic-bezier(0.075, 0.82, 0.165, 1) 250ms, 
+  color 250ms cubic-bezier(0.075, 0.82, 0.165, 1) 250ms,
+  transform 250ms cubic-bezier(0.075, 0.82, 0.165, 1) 250ms;
 }
 
 .reviews__btn:hover {
@@ -84,10 +86,10 @@
     transform: scale(1.05);
 }
 
-.reviews-swiper-pagination {
-    margin-left: auto;
-    margin-right: auto;
-}
+// .reviews-swiper-pagination {
+//     margin-left: auto;
+//     margin-right: auto;
+// }
 
 .container-swiper {
     // height: 442px;
@@ -128,4 +130,5 @@
   .reviews-swiper {
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: 95px;
   }
