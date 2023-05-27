@@ -5,10 +5,6 @@ $pink-primary: hsl(35, 83%, 93%);
     color: $orange-primary;
 }
 
-.top-seller {
-    padding: 128px 0;
-}
-
 .img-container {
     display: flex;
     justify-content: space-evenly;
@@ -37,7 +33,7 @@ $pink-primary: hsl(35, 83%, 93%);
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 32px 0;
+    margin-top: 32px;
 
     p {
         max-width: 306px;

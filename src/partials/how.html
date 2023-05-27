@@ -1,32 +1,64 @@
-<div class="how-container">
-    <p class="title">How It's <span class="orange">Made</span></p>
-    <div class="how-wrapper">
-        <img src="./images/desktop/recipe-vid@1x.png" alt="mixing chocolate" />
-        <div class="how-text">
-            <p>
-                Try our chocolates today and discover the perfect balance of
-                flavor
-            </p>
-            <ul>
-                <li>
-                    Heat the milk in a saucepan without bringing it to a boil.
-                    Add sugar and cocoa powder.
-                </li>
-                <li>
-                    At the same time, prepare a water bath. Melt the butter on
-                    it.
-                </li>
-                <li>
-                    "Mix" the milk mixture and already liquid butter. Mix
-                    thoroughly with a silicone spatula so that the mass becomes
-                    uniform and silky.
-                </li>
-                <li>Heat the mixture over low heat, letting it barely boil.</li>
-                <li>
-                    Pour the chocolate into special containers (can be replaced
-                    with ice molds). Allow to cool and harden.
-                </li>
-            </ul>
+<section class="how">
+    <div class="container">
+        <p class="title">How It's <span class="orange">Made</span></p>
+        <div class="how-wrapper">
+            <div class="how-photo">
+            <picture>
+                <source
+                    media="(min-width:1200px)"
+                    srcset="
+                        ./images/desktop/recipe-vid@1x.png 1x,
+                        ./images/desktop/recipe-vid@2x.png 2x
+                    "
+                />
+                <source
+                    media="(min-width:768px)"
+                    srcset="
+                        ./images/desktop/recipe-vid@1x.png 1x,
+                        ./images/desktop/recipe-vid@2x.png 2x
+                    "
+                />
+                <source
+                    media="(max-width:767px)"
+                    srcset="
+                        ./images/mobile/sellers@1x.png 1x,
+                        ./images/mobile/sellers@2x.png 2x
+                    "
+                />
+                <img
+                    src="./images/desktop/recipe-vid@1x.png"
+                    alt="mixing chocolate"
+                />
+            </picture>
+            </div>
+            <div class="how-text">
+                <p>
+                    Try our chocolates today and discover the perfect balance of
+                    flavor
+                </p>
+                <ul>
+                    <li>
+                        Heat the milk in a saucepan without bringing it to a
+                        boil. Add sugar and cocoa powder.
+                    </li>
+                    <li>
+                        At the same time, prepare a water bath. Melt the butter
+                        on it.
+                    </li>
+                    <li>
+                        "Mix" the milk mixture and already liquid butter. Mix
+                        thoroughly with a silicone spatula so that the mass
+                        becomes uniform and silky.
+                    </li>
+                    <li>
+                        Heat the mixture over low heat, letting it barely boil.
+                    </li>
+                    <li>
+                        Pour the chocolate into special containers (can be
+                        replaced with ice molds). Allow to cool and harden.
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
-</div>
+</section>
