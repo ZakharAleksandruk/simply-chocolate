@@ -1,10 +1,9 @@
-
 (() => {
     const refs = {
-        openModalBtn: document.querySelector("[data-open-reviews-form]"),
-        closeModalBtn: document.querySelector("[data-close-reviews-form]"),
-        hideModal: document.querySelector("[data-hide-reviews-form]"),
-        modal: document.querySelector("[data-reviews-form]"),
+        openModalBtn: document.querySelector("[data-open-explore-modal]"),
+        closeModalBtn: document.querySelector("[data-close-explore-modal]"),
+        hideModal: document.querySelector("[data-hide-explore-modal]"),
+        modal: document.querySelector("[data-explore-modal]"),
     };
 
     refs.openModalBtn.addEventListener("click", toggleModal);
