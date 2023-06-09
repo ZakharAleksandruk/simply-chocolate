@@ -12,6 +12,7 @@
     background-size: 100% 169px;
     background-repeat: no-repeat;
     z-index: 1000;
+    overflow: scroll;
 
     @media screen and (min-width: 768px) {
         width: 609px;
@@ -115,8 +116,91 @@
     border: 1.5px solid rgba(17, 17, 17, 0.05);
     filter: drop-shadow(0px 5.44492px 5.44492px rgba(0, 0, 0, 0.03));
     border-radius: 8px;
+    padding-left: 18px;
+
+    @media screen and (min-width: 768px) {
+        width: 513px;
+        height: 66px;
+        padding-left: 24px;
+    }
 }
 
 .buy-form__name {
     margin-bottom: 14px;
+    margin-right: 21px;
+    @media screen and (min-width: 768px) {
+        width: 246px;
+    }
+}
+
+.buy-form__surname {
+    @media screen and (min-width: 768px) {
+        width: 246px;
+    }
+}
+
+.buy-modal__icon {
+    position: absolute;
+    top: 14px;
+    left: 14px;
+    width: 24px;
+    height: 24px;
+
+    @media screen and (min-width: 768px) {
+        top: 24px;
+        left: 24px;
+        width: 28px;
+        height: 28px;
+    }
+}
+
+.buy-form__content {
+    display: flex;
+}
+
+.buy-form__filln {
+    padding-left: 177px;
+}
+
+.buy-form__item:nth-child(3) {
+    position: relative;
+}
+
+.buy-form__flag {
+    width: 24px;
+    height: 20px;
+    position: absolute;
+    top: 36px;
+    left: 18px;
+    margin-right: 8px;
+    z-index: 1001;
+
+    @media screen and (min-width: 768px) {
+        width: 32px;
+        height: 24px;
+        top: 48px;
+        left: 24px;
+        margin-right: 18px;
+    }
+}
+
+.buy-form__number {
+    z-index: 1001;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+    color: #000000;
+    position: absolute;
+    top: 36px;
+    left: 50px;
+
+    @media screen and (min-width: 768px) {
+        font-size: 18px;
+        line-height: 1.22;
+        top: 48px;
+        left: 74px;
+    }
 }
