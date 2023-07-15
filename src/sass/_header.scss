@@ -9,17 +9,17 @@ $black-primary: hsl(0, 0%, 0%);
     padding-bottom: 14px;
 
     @media screen and (min-width: 1200px) {
-    padding-top: 24px;
-    padding-bottom: 24px;
-    } 
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
 
     @media screen and (min-width: 1200px) {
-    padding-top: 26px;
-    padding-bottom: 34px;
-    } 
+        padding-top: 26px;
+        padding-bottom: 34px;
+    }
 }
 
-.header > .container  {
+.header > .container {
     position: relative;
 }
 
@@ -34,16 +34,16 @@ $black-primary: hsl(0, 0%, 0%);
     align-items: center;
     font-weight: 700;
     font-size: 14px;
-line-height: 1.29;
+    line-height: 1.29;
     letter-spacing: -0.03em;
     color: #111111;
     text-transform: uppercase;
     margin-right: auto;
 
     @media screen and (min-width: 1200px) {
-    font-size: 18px;
-    line-height: 1.11;
-    } 
+        font-size: 18px;
+        line-height: 1.11;
+    }
 }
 
 .header__simply {
@@ -57,9 +57,9 @@ line-height: 1.29;
     height: 21px;
 
     @media screen and (min-width: 1200px) {
-    width: 24px;
-    height: 24px;
-    } 
+        width: 24px;
+        height: 24px;
+    }
 }
 
 .pages {
@@ -98,9 +98,9 @@ line-height: 1.29;
     right: 20px;
 
     @media screen and (min-width: 768px) {
-    width: 32px;
-    height: 32px;
-    } 
+        width: 32px;
+        height: 32px;
+    }
 }
 
 .socials__icon {
