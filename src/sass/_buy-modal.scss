@@ -1,6 +1,6 @@
 .buy-modal {
     width: 311px;
-    height: 1007px;
+    height: 90vh;
     position: fixed;
     background: $bg-title;
     border-radius: 15px;
@@ -16,7 +16,7 @@
 
     @media screen and (min-width: 768px) {
         width: 609px;
-        height: 1058px;
+        height: 90vh;
         padding: 48px;
     }
 }
@@ -202,5 +202,22 @@
         line-height: 1.22;
         top: 48px;
         left: 74px;
+    }
+}
+
+.buy-modal__btn {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 12px 28px;
+    border-radius: 100px;
+    background: #fd9222;
+    margin-top: 18px;
+
+    @media screen and (min-width: 768px) {
+        padding: 14px 40px;
     }
 }
